@@ -1,0 +1,48 @@
+html body{
+    margin: 0px;padding: 0px;
+}
+.content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 900px;
+
+}
+header{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 135px;
+    background-color: #FFFFFF;
+}
+.hmain{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+.hmain img{
+    display: block;
+    float: left;
+}
+input,button{ margin:0; padding:0; list-style-type:none;}
+.buttons{
+    padding-top: 30px;
+    float: right;
+}
+.buttons button{
+    margin:0; padding:0; list-style-type:none;background:none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    background-color: #000099;
+    width: 90px;
+    height: 30px;
+    margin-left: 25px;
+    cursor:pointer
+
+}

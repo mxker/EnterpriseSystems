@@ -1,0 +1,2410 @@
+2016-11-28 02:03:41 [-][-][-][error][yii\console\Exception] yii\base\InvalidRouteException: Unable to resolve the request: trackingcode/ in F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('', Array)
+#1 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('', Array)
+#2 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('trackingcode', Array)
+#3 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('trackingcode', Array)
+#4 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\Exception: Unknown command "trackingcode". in F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('trackingcode', Array)
+#1 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#3 {main}
+2016-11-28 02:03:41 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Q2INZVVZKFVDD4U'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Q2INZVVZKFVDD4U'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Q2INZVVZKFVDD4U'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\Linux\\VirtualBox\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'F:\\Project\\MyExp\\trunk\\server\\console\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_NAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_FILENAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'PATH_TRANSLATED' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480316621.1892
+    'REQUEST_TIME' => 1480316621
+    'argv' => [
+        0 => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+        1 => 'trackingcode'
+        2 => 'subscribe'
+    ]
+    'argc' => 3
+]
+2016-11-28 02:04:15 [-][-][-][error][Error] Error: Class 'console\controllers\Yii' not found in F:\Project\MyExp\trunk\server\console\controllers\TrackingcodeController.php:18
+Stack trace:
+#0 [internal function]: console\controllers\TrackingcodeController->actionSubscribe(NULL, NULL)
+#1 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#2 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('subscribe', Array)
+#4 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('subscribe', Array)
+#5 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('trackingcode/su...', Array)
+#6 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('trackingcode/su...', Array)
+#7 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#9 {main}
+2016-11-28 02:04:14 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Q2INZVVZKFVDD4U'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Q2INZVVZKFVDD4U'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Q2INZVVZKFVDD4U'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\Linux\\VirtualBox\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'F:\\Project\\MyExp\\trunk\\server\\console\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_NAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_FILENAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'PATH_TRANSLATED' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480316654.6051
+    'REQUEST_TIME' => 1480316654
+    'argv' => [
+        0 => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+        1 => 'trackingcode/subscribe'
+    ]
+    'argc' => 2
+]
+2016-11-28 02:04:54 [-][-][-][error][Error] Error: Class 'console\controllers\Yii' not found in F:\Project\MyExp\trunk\server\console\controllers\TrackingcodeController.php:18
+Stack trace:
+#0 [internal function]: console\controllers\TrackingcodeController->actionSubscribe(NULL, NULL)
+#1 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#2 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('subscribe', Array)
+#4 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('subscribe', Array)
+#5 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('trackingcode/su...', Array)
+#6 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('trackingcode/su...', Array)
+#7 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#9 {main}
+2016-11-28 02:04:54 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Q2INZVVZKFVDD4U'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Q2INZVVZKFVDD4U'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Q2INZVVZKFVDD4U'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\Linux\\VirtualBox\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'F:\\Project\\MyExp\\trunk\\server\\console\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_NAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_FILENAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'PATH_TRANSLATED' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480316694.2403
+    'REQUEST_TIME' => 1480316694
+    'argv' => [
+        0 => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+        1 => 'trackingcode/subscribe'
+    ]
+    'argc' => 2
+]
+2016-11-28 02:05:41 [-][-][-][error][Error] Error: Class 'console\controllers\Yii' not found in F:\Project\MyExp\trunk\server\console\controllers\TrackingcodeController.php:18
+Stack trace:
+#0 [internal function]: console\controllers\TrackingcodeController->actionSubscribe(NULL, NULL)
+#1 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#2 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('subscribe', Array)
+#4 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('subscribe', Array)
+#5 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('trackingcode/su...', Array)
+#6 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('trackingcode/su...', Array)
+#7 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#9 {main}
+2016-11-28 02:05:41 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Q2INZVVZKFVDD4U'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Q2INZVVZKFVDD4U'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Q2INZVVZKFVDD4U'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\Linux\\VirtualBox\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'F:\\Project\\MyExp\\trunk\\server\\console\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_NAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_FILENAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'PATH_TRANSLATED' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480316741.424
+    'REQUEST_TIME' => 1480316741
+    'argv' => [
+        0 => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+        1 => 'trackingcode/subscribe'
+    ]
+    'argc' => 2
+]
+2016-11-28 02:06:59 [-][-][-][error][Error] Error: Class 'console\controllers\Yii' not found in F:\Project\MyExp\trunk\server\console\controllers\TrackingcodeController.php:18
+Stack trace:
+#0 [internal function]: console\controllers\TrackingcodeController->actionSubscribe(NULL, NULL)
+#1 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#2 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('subscribe', Array)
+#4 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('subscribe', Array)
+#5 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('trackingcode/su...', Array)
+#6 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('trackingcode/su...', Array)
+#7 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#9 {main}
+2016-11-28 02:06:58 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Q2INZVVZKFVDD4U'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Q2INZVVZKFVDD4U'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Q2INZVVZKFVDD4U'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\Linux\\VirtualBox\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'F:\\Project\\MyExp\\trunk\\server\\console\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_NAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_FILENAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'PATH_TRANSLATED' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480316818.5745
+    'REQUEST_TIME' => 1480316818
+    'argv' => [
+        0 => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+        1 => 'trackingcode/subscribe'
+    ]
+    'argc' => 2
+]
+2016-11-28 02:07:32 [-][-][-][error][Error] Error: Class 'console\controllers\Yii' not found in F:\Project\MyExp\trunk\server\console\controllers\TrackingcodeController.php:18
+Stack trace:
+#0 [internal function]: console\controllers\TrackingcodeController->actionSubscribe(NULL, NULL)
+#1 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#2 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('subscribe', Array)
+#4 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('subscribe', Array)
+#5 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('trackingcode/su...', Array)
+#6 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('trackingcode/su...', Array)
+#7 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#9 {main}
+2016-11-28 02:07:32 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Q2INZVVZKFVDD4U'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Q2INZVVZKFVDD4U'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Q2INZVVZKFVDD4U'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\Linux\\VirtualBox\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'F:\\Project\\MyExp\\trunk\\server\\console\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_NAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_FILENAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'PATH_TRANSLATED' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480316852.4934
+    'REQUEST_TIME' => 1480316852
+    'argv' => [
+        0 => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+        1 => 'trackingcode/subscribe'
+    ]
+    'argc' => 2
+]
+2016-11-28 02:07:41 [-][-][-][error][Error] Error: Class 'console\controllers\Yii' not found in F:\Project\MyExp\trunk\server\console\controllers\TrackingcodeController.php:18
+Stack trace:
+#0 [internal function]: console\controllers\TrackingcodeController->actionSubscribe(NULL, NULL)
+#1 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#2 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('subscribe', Array)
+#4 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('subscribe', Array)
+#5 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('trackingcode/su...', Array)
+#6 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('trackingcode/su...', Array)
+#7 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#9 {main}
+2016-11-28 02:07:40 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Q2INZVVZKFVDD4U'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Q2INZVVZKFVDD4U'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Q2INZVVZKFVDD4U'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\Linux\\VirtualBox\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'F:\\Project\\MyExp\\trunk\\server\\console\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_NAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_FILENAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'PATH_TRANSLATED' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480316860.7269
+    'REQUEST_TIME' => 1480316860
+    'argv' => [
+        0 => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+        1 => 'trackingcode/subscribe'
+    ]
+    'argc' => 2
+]
+2016-11-28 02:08:35 [-][-][-][error][Error] Error: Class 'console\controllers\Yii' not found in F:\Project\MyExp\trunk\server\console\controllers\TrackingcodeController.php:18
+Stack trace:
+#0 [internal function]: console\controllers\TrackingcodeController->actionSubscribe(NULL, NULL)
+#1 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#2 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('subscribe', Array)
+#4 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('subscribe', Array)
+#5 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('trackingcode/su...', Array)
+#6 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('trackingcode/su...', Array)
+#7 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#9 {main}
+2016-11-28 02:08:35 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Q2INZVVZKFVDD4U'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Q2INZVVZKFVDD4U'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Q2INZVVZKFVDD4U'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\Linux\\VirtualBox\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'F:\\Project\\MyExp\\trunk\\server\\console\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_NAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_FILENAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'PATH_TRANSLATED' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480316915.411
+    'REQUEST_TIME' => 1480316915
+    'argv' => [
+        0 => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+        1 => 'trackingcode/subscribe'
+    ]
+    'argc' => 2
+]
+2016-11-28 02:09:52 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Array to string conversion in F:\Project\MyExp\trunk\server\console\controllers\TrackingcodeController.php:19
+Stack trace:
+#0 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#1 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#2 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction()
+#3 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#4 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#5 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#6 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#7 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#8 {main}
+2016-11-28 02:09:52 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Q2INZVVZKFVDD4U'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Q2INZVVZKFVDD4U'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Q2INZVVZKFVDD4U'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\Linux\\VirtualBox\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'F:\\Project\\MyExp\\trunk\\server\\console\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_NAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_FILENAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'PATH_TRANSLATED' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480316991.8374
+    'REQUEST_TIME' => 1480316991
+    'argv' => [
+        0 => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+        1 => 'trackingcode/subscribe'
+    ]
+    'argc' => 2
+]
+2016-11-28 02:11:56 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: shipping_code in F:\Project\MyExp\trunk\server\console\controllers\TrackingcodeController.php:28
+Stack trace:
+#0 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#1 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#2 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction()
+#3 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#4 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#5 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#6 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#7 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#8 {main}
+2016-11-28 02:11:56 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Q2INZVVZKFVDD4U'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Q2INZVVZKFVDD4U'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Q2INZVVZKFVDD4U'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\Linux\\VirtualBox\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'F:\\Project\\MyExp\\trunk\\server\\console\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_NAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_FILENAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'PATH_TRANSLATED' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480317115.9435
+    'REQUEST_TIME' => 1480317115
+    'argv' => [
+        0 => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+        1 => 'trackingcode/subscribe'
+    ]
+    'argc' => 2
+]
+2016-11-28 02:13:22 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: shipping_code in F:\Project\MyExp\trunk\server\console\controllers\TrackingcodeController.php:26
+Stack trace:
+#0 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#1 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#2 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction()
+#3 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#4 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#5 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#6 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#7 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#8 {main}
+2016-11-28 02:13:22 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Q2INZVVZKFVDD4U'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Q2INZVVZKFVDD4U'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Q2INZVVZKFVDD4U'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\Linux\\VirtualBox\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'F:\\Project\\MyExp\\trunk\\server\\console\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_NAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_FILENAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'PATH_TRANSLATED' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480317202.4704
+    'REQUEST_TIME' => 1480317202
+    'argv' => [
+        0 => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+        1 => 'trackingcode/subscribe'
+    ]
+    'argc' => 2
+]
+2016-11-28 02:18:34 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined offset: 1 in F:\Project\MyExp\trunk\server\console\controllers\TrackingcodeController.php:21
+Stack trace:
+#0 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#1 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#2 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction()
+#3 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#4 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#5 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#6 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#7 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#8 {main}
+2016-11-28 02:18:23 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Q2INZVVZKFVDD4U'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Q2INZVVZKFVDD4U'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Q2INZVVZKFVDD4U'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\Linux\\VirtualBox\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'F:\\Project\\MyExp\\trunk\\server\\console\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_NAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_FILENAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'PATH_TRANSLATED' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480317503.4036
+    'REQUEST_TIME' => 1480317503
+    'argv' => [
+        0 => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+        1 => 'trackingcode/subscribe'
+    ]
+    'argc' => 2
+]
+2016-11-28 02:21:28 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: shipping_code in F:\Project\MyExp\trunk\server\console\controllers\TrackingcodeController.php:27
+Stack trace:
+#0 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#1 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#2 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction()
+#3 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#4 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#5 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#6 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#7 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#8 {main}
+2016-11-28 02:21:28 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Q2INZVVZKFVDD4U'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Q2INZVVZKFVDD4U'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Q2INZVVZKFVDD4U'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\Linux\\VirtualBox\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'F:\\Project\\MyExp\\trunk\\server\\console\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_NAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_FILENAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'PATH_TRANSLATED' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480317688.3912
+    'REQUEST_TIME' => 1480317688
+    'argv' => [
+        0 => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+        1 => 'trackingcode/subscribe'
+    ]
+    'argc' => 2
+]
+2016-11-28 02:22:01 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: shipping_code in F:\Project\MyExp\trunk\server\console\controllers\TrackingcodeController.php:27
+Stack trace:
+#0 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#1 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#2 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction()
+#3 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#4 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#5 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#6 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#7 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#8 {main}
+2016-11-28 02:22:01 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Q2INZVVZKFVDD4U'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Q2INZVVZKFVDD4U'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Q2INZVVZKFVDD4U'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\Linux\\VirtualBox\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'F:\\Project\\MyExp\\trunk\\server\\console\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_NAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_FILENAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'PATH_TRANSLATED' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480317721.1681
+    'REQUEST_TIME' => 1480317721
+    'argv' => [
+        0 => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+        1 => 'trackingcode/subscribe'
+    ]
+    'argc' => 2
+]
+2016-11-28 02:25:57 [-][-][-][error][Error] Error: Class 'api\libs\Kuai100' not found in F:\Project\MyExp\trunk\server\console\controllers\TrackingcodeController.php:29
+Stack trace:
+#0 [internal function]: console\controllers\TrackingcodeController->actionSubscribe(NULL, NULL)
+#1 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#2 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('subscribe', Array)
+#4 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('subscribe', Array)
+#5 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('trackingcode/su...', Array)
+#6 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('trackingcode/su...', Array)
+#7 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#9 {main}
+2016-11-28 02:25:57 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Q2INZVVZKFVDD4U'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Q2INZVVZKFVDD4U'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Q2INZVVZKFVDD4U'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\Linux\\VirtualBox\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'F:\\Project\\MyExp\\trunk\\server\\console\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_NAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_FILENAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'PATH_TRANSLATED' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480317957.1886
+    'REQUEST_TIME' => 1480317957
+    'argv' => [
+        0 => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+        1 => 'trackingcode/subscribe'
+    ]
+    'argc' => 2
+]
+2016-11-28 02:27:59 [-][-][-][error][Error] Error: Class 'common\libs\kuai100' not found in F:\Project\MyExp\trunk\server\console\controllers\TrackingcodeController.php:30
+Stack trace:
+#0 [internal function]: console\controllers\TrackingcodeController->actionSubscribe(NULL, NULL)
+#1 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#2 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('subscribe', Array)
+#4 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('subscribe', Array)
+#5 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('trackingcode/su...', Array)
+#6 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('trackingcode/su...', Array)
+#7 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#9 {main}
+2016-11-28 02:27:59 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Q2INZVVZKFVDD4U'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Q2INZVVZKFVDD4U'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Q2INZVVZKFVDD4U'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\Linux\\VirtualBox\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'F:\\Project\\MyExp\\trunk\\server\\console\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_NAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_FILENAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'PATH_TRANSLATED' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480318079.1676
+    'REQUEST_TIME' => 1480318079
+    'argv' => [
+        0 => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+        1 => 'trackingcode/subscribe'
+    ]
+    'argc' => 2
+]
+2016-11-28 02:49:17 [-][-][-][error][Error] Error: Class 'common\libs\Kuai100' not found in F:\Project\MyExp\trunk\server\console\controllers\TrackingcodeController.php:30
+Stack trace:
+#0 [internal function]: console\controllers\TrackingcodeController->actionSubscribe(NULL, NULL)
+#1 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#2 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('subscribe', Array)
+#4 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('subscribe', Array)
+#5 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('trackingcode/su...', Array)
+#6 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('trackingcode/su...', Array)
+#7 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#9 {main}
+2016-11-28 02:49:17 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Q2INZVVZKFVDD4U'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Q2INZVVZKFVDD4U'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Q2INZVVZKFVDD4U'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\Linux\\VirtualBox\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'F:\\Project\\MyExp\\trunk\\server\\console\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_NAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_FILENAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'PATH_TRANSLATED' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480319356.8956
+    'REQUEST_TIME' => 1480319356
+    'argv' => [
+        0 => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+        1 => 'trackingcode/subscribe'
+    ]
+    'argc' => 2
+]
+2016-11-28 02:51:15 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: HTTP_HOST in F:\Project\MyExp\trunk\server\common\libs\kuai100.php:17
+Stack trace:
+#0 F:\Project\MyExp\trunk\server\console\controllers\TrackingcodeController.php(30): common\libs\Kuai100::App()
+#1 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): console\controllers\TrackingcodeController->actionSubscribe()
+#2 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#3 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#4 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction()
+#5 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#6 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#7 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#8 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#9 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#10 {main}
+2016-11-28 02:51:15 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Q2INZVVZKFVDD4U'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Q2INZVVZKFVDD4U'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Q2INZVVZKFVDD4U'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\Linux\\VirtualBox\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'F:\\Project\\MyExp\\trunk\\server\\console\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_NAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_FILENAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'PATH_TRANSLATED' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480319475.2064
+    'REQUEST_TIME' => 1480319475
+    'argv' => [
+        0 => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+        1 => 'trackingcode/subscribe'
+    ]
+    'argc' => 2
+]
+2016-11-28 02:53:17 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: from in F:\Project\MyExp\trunk\server\common\libs\kuai100.php:35
+Stack trace:
+#0 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): console\controllers\TrackingcodeController->actionSubscribe()
+#1 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#2 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#3 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction()
+#4 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#5 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#6 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#7 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#8 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#9 {main}
+2016-11-28 02:53:17 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Q2INZVVZKFVDD4U'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Q2INZVVZKFVDD4U'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Q2INZVVZKFVDD4U'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\Linux\\VirtualBox\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'F:\\Project\\MyExp\\trunk\\server\\console\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_NAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_FILENAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'PATH_TRANSLATED' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480319597.2534
+    'REQUEST_TIME' => 1480319597
+    'argv' => [
+        0 => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+        1 => 'trackingcode/subscribe'
+    ]
+    'argc' => 2
+]
+2016-11-28 02:53:55 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: curl_setopt() expects parameter 2 to be integer, object given in F:\Project\MyExp\trunk\server\vendor\php-curl-class\php-curl-class\src\Curl\Curl.php:1012
+Stack trace:
+#0 F:\Project\MyExp\trunk\server\common\libs\kuai100.php(75): Curl\Curl->setOpt()
+#1 F:\Project\MyExp\trunk\server\console\controllers\TrackingcodeController.php(30): common\libs\Kuai100->subscribe()
+#2 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): console\controllers\TrackingcodeController->actionSubscribe()
+#3 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#4 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#5 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction()
+#6 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#7 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#8 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#9 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#10 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#11 {main}
+2016-11-28 02:53:54 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Q2INZVVZKFVDD4U'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Q2INZVVZKFVDD4U'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Q2INZVVZKFVDD4U'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\Linux\\VirtualBox\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'F:\\Project\\MyExp\\trunk\\server\\console\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_NAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_FILENAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'PATH_TRANSLATED' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480319634.7135
+    'REQUEST_TIME' => 1480319634
+    'argv' => [
+        0 => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+        1 => 'trackingcode/subscribe'
+    ]
+    'argc' => 2
+]
+2016-11-28 02:56:26 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: curl_multi_getcontent() expects parameter 1 to be resource, object given in F:\Project\MyExp\trunk\server\vendor\php-curl-class\php-curl-class\src\Curl\Curl.php:366
+Stack trace:
+#0 F:\Project\MyExp\trunk\server\common\libs\kuai100.php(81): Curl\Curl->exec()
+#1 F:\Project\MyExp\trunk\server\console\controllers\TrackingcodeController.php(30): common\libs\Kuai100->subscribe()
+#2 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): console\controllers\TrackingcodeController->actionSubscribe()
+#3 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#4 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#5 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction()
+#6 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#7 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#8 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#9 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#10 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#11 {main}
+2016-11-28 02:56:26 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Q2INZVVZKFVDD4U'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Q2INZVVZKFVDD4U'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Q2INZVVZKFVDD4U'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\Linux\\VirtualBox\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'F:\\Project\\MyExp\\trunk\\server\\console\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_NAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_FILENAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'PATH_TRANSLATED' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480319786.1322
+    'REQUEST_TIME' => 1480319786
+    'argv' => [
+        0 => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+        1 => 'trackingcode/subscribe'
+    ]
+    'argc' => 2
+]
+2016-11-28 02:57:30 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: implode(): Invalid arguments passed in F:\Project\MyExp\trunk\server\console\controllers\TrackingcodeController.php:33
+Stack trace:
+#0 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): console\controllers\TrackingcodeController->actionSubscribe()
+#1 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#2 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#3 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction()
+#4 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#5 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#6 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#7 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#8 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#9 {main}
+2016-11-28 02:57:29 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Q2INZVVZKFVDD4U'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Q2INZVVZKFVDD4U'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Q2INZVVZKFVDD4U'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\Linux\\VirtualBox\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'F:\\Project\\MyExp\\trunk\\server\\console\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_NAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_FILENAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'PATH_TRANSLATED' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480319849.5838
+    'REQUEST_TIME' => 1480319849
+    'argv' => [
+        0 => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+        1 => 'trackingcode/subscribe'
+    ]
+    'argc' => 2
+]
+2016-11-28 03:02:52 [-][-][-][error][Error] Error: Class 'console\controllers\Yii' not found in F:\Project\MyExp\trunk\server\console\controllers\TrackingcodeController.php:35
+Stack trace:
+#0 [internal function]: console\controllers\TrackingcodeController->actionSubscribe(NULL, NULL)
+#1 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#2 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('subscribe', Array)
+#4 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('subscribe', Array)
+#5 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('trackingcode/su...', Array)
+#6 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('trackingcode/su...', Array)
+#7 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#9 {main}
+2016-11-28 03:02:52 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Q2INZVVZKFVDD4U'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Q2INZVVZKFVDD4U'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Q2INZVVZKFVDD4U'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\Linux\\VirtualBox\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'F:\\Project\\MyExp\\trunk\\server\\console\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_NAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_FILENAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'PATH_TRANSLATED' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480320172.2623
+    'REQUEST_TIME' => 1480320172
+    'argv' => [
+        0 => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+        1 => 'trackingcode/subscribe'
+    ]
+    'argc' => 2
+]
+2016-11-28 03:05:45 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: express_code in F:\Project\MyExp\trunk\server\console\controllers\TrackingcodeController.php:27
+Stack trace:
+#0 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#1 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#2 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction()
+#3 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#4 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#5 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#6 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#7 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#8 {main}
+2016-11-28 03:05:45 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Q2INZVVZKFVDD4U'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Q2INZVVZKFVDD4U'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Q2INZVVZKFVDD4U'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\Linux\\VirtualBox\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'F:\\Project\\MyExp\\trunk\\server\\console\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_NAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_FILENAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'PATH_TRANSLATED' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480320344.8902
+    'REQUEST_TIME' => 1480320344
+    'argv' => [
+        0 => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+        1 => 'trackingcode/subscribe'
+    ]
+    'argc' => 2
+]
+2016-11-28 03:06:01 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: express_code in F:\Project\MyExp\trunk\server\console\controllers\TrackingcodeController.php:27
+Stack trace:
+#0 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#1 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#2 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction()
+#3 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#4 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#5 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#6 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#7 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#8 {main}
+2016-11-28 03:06:01 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Q2INZVVZKFVDD4U'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Q2INZVVZKFVDD4U'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Q2INZVVZKFVDD4U'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\Linux\\VirtualBox\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'F:\\Project\\MyExp\\trunk\\server\\console\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_NAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_FILENAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'PATH_TRANSLATED' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480320361.0421
+    'REQUEST_TIME' => 1480320361
+    'argv' => [
+        0 => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+        1 => 'trackingcode/subscribe'
+    ]
+    'argc' => 2
+]
+2016-12-02 11:29:45 [-][-][-][error][yii\redis\Connection] Failed to open redis DB connection (127.0.0.1:6379, database=0): 10061 - 由于目标计算机积极拒绝，无法连接。
+
+2016-12-02 11:29:45 [-][-][-][error][yii\db\Exception] yii\db\Exception: Failed to open redis DB connection (127.0.0.1:6379, database=0): 10061 - 由于目标计算机积极拒绝，无法连接。
+ in F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2-redis\Connection.php:294
+Stack trace:
+#0 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2-redis\Connection.php(383): yii\redis\Connection->open()
+#1 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2-redis\Connection.php(355): yii\redis\Connection->executeCommand('BLPOP', Array)
+#2 F:\Project\MyExp\trunk\server\console\controllers\TrackingcodeController.php(20): yii\redis\Connection->__call('BLPOP', Array)
+#3 [internal function]: console\controllers\TrackingcodeController->actionSubscribe(NULL, NULL)
+#4 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('subscribe', Array)
+#7 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('subscribe', Array)
+#8 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('trackingcode/su...', Array)
+#9 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('trackingcode/su...', Array)
+#10 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#12 {main}
+Additional Information:
+由于目标计算机积极拒绝，无法连接。
+
+2016-12-02 11:29:44 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Q2INZVVZKFVDD4U'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Q2INZVVZKFVDD4U'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Q2INZVVZKFVDD4U'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\Linux\\VirtualBox\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'F:\\Project\\MyExp\\trunk\\server\\console\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_NAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_FILENAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'PATH_TRANSLATED' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480649383.8517
+    'REQUEST_TIME' => 1480649383
+    'argv' => [
+        0 => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+        1 => 'trackingcode/subscribe'
+    ]
+    'argc' => 2
+]
+2016-12-02 14:48:46 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: paramArray in F:\Project\MyExp\trunk\server\console\controllers\TrackingcodeController.php:25
+Stack trace:
+#0 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#1 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#2 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction()
+#3 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#4 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#5 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#6 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#7 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#8 {main}
+2016-12-02 14:48:46 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Q2INZVVZKFVDD4U'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Q2INZVVZKFVDD4U'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Q2INZVVZKFVDD4U'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\Linux\\VirtualBox\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'F:\\Project\\MyExp\\trunk\\server\\console\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_NAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_FILENAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'PATH_TRANSLATED' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480661326.4028
+    'REQUEST_TIME' => 1480661326
+    'argv' => [
+        0 => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+        1 => 'trackingcode/subscribe'
+    ]
+    'argc' => 2
+]
+2016-12-02 14:50:07 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: paramArr in F:\Project\MyExp\trunk\server\console\controllers\TrackingcodeController.php:31
+Stack trace:
+#0 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#1 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#2 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction()
+#3 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#4 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#5 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#6 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#7 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#8 {main}
+2016-12-02 14:50:06 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Q2INZVVZKFVDD4U'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Q2INZVVZKFVDD4U'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Q2INZVVZKFVDD4U'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\Linux\\VirtualBox\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'F:\\Project\\MyExp\\trunk\\server\\console\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_NAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_FILENAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'PATH_TRANSLATED' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480661406.6944
+    'REQUEST_TIME' => 1480661406
+    'argv' => [
+        0 => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+        1 => 'trackingcode/subscribe'
+    ]
+    'argc' => 2
+]
+2016-12-02 14:50:28 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Illegal string offset 'express_code' in F:\Project\MyExp\trunk\server\console\controllers\TrackingcodeController.php:31
+Stack trace:
+#0 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#1 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#2 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction()
+#3 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#4 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#5 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#6 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#7 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#8 {main}
+2016-12-02 14:50:28 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Q2INZVVZKFVDD4U'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Q2INZVVZKFVDD4U'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Q2INZVVZKFVDD4U'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\Linux\\VirtualBox\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'F:\\Project\\MyExp\\trunk\\server\\console\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_NAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_FILENAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'PATH_TRANSLATED' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480661428.3686
+    'REQUEST_TIME' => 1480661428
+    'argv' => [
+        0 => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+        1 => 'trackingcode/subscribe'
+    ]
+    'argc' => 2
+]
+2016-12-02 14:56:38 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: mb_strlen() expects parameter 1 to be string, array given in F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2-redis\Connection.php:388
+Stack trace:
+#0 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2-redis\Connection.php(355): yii\redis\Connection->executeCommand()
+#1 F:\Project\MyExp\trunk\server\console\controllers\TrackingcodeController.php(42): yii\redis\Connection->__call()
+#2 F:\Project\MyExp\trunk\server\console\controllers\TrackingcodeController.php(42): yii\redis\Connection->LREM()
+#3 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): console\controllers\TrackingcodeController->actionSubscribe()
+#4 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#5 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#6 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction()
+#7 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#8 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#9 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#10 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#11 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#12 {main}
+2016-12-02 14:56:26 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Q2INZVVZKFVDD4U'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Q2INZVVZKFVDD4U'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Q2INZVVZKFVDD4U'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\Linux\\VirtualBox\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'F:\\Project\\MyExp\\trunk\\server\\console\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_NAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_FILENAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'PATH_TRANSLATED' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480661785.9471
+    'REQUEST_TIME' => 1480661785
+    'argv' => [
+        0 => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+        1 => 'trackingcode/subscribe'
+    ]
+    'argc' => 2
+]
+2016-12-02 15:02:25 [-][-][-][error][yii\db\Exception] yii\db\Exception: Redis error: ERR wrong number of arguments for 'lrem' command
+Redis command was: LREM noSubscribe 4 in F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2-redis\Connection.php:417
+Stack trace:
+#0 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2-redis\Connection.php(394): yii\redis\Connection->parseResponse('LREM noSubscrib...')
+#1 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2-redis\Connection.php(355): yii\redis\Connection->executeCommand('LREM', Array)
+#2 F:\Project\MyExp\trunk\server\console\controllers\TrackingcodeController.php(52): yii\redis\Connection->__call('LREM', Array)
+#3 [internal function]: console\controllers\TrackingcodeController->actionSubscribe(NULL, NULL)
+#4 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('subscribe', Array)
+#7 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('subscribe', Array)
+#8 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('trackingcode/su...', Array)
+#9 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('trackingcode/su...', Array)
+#10 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+)
+
+2016-12-02 15:02:24 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Q2INZVVZKFVDD4U'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Q2INZVVZKFVDD4U'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Q2INZVVZKFVDD4U'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\Linux\\VirtualBox\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'F:\\Project\\MyExp\\trunk\\server\\console\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_NAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_FILENAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'PATH_TRANSLATED' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480662144.6126
+    'REQUEST_TIME' => 1480662144
+    'argv' => [
+        0 => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+        1 => 'trackingcode/subscribe'
+    ]
+    'argc' => 2
+]
+2016-12-02 15:07:34 [-][-][-][error][yii\db\Exception] yii\db\Exception: Redis error: ERR wrong number of arguments for 'ltrim' command
+Redis command was: LTRIM noSubscribe 9 in F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2-redis\Connection.php:417
+Stack trace:
+#0 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2-redis\Connection.php(394): yii\redis\Connection->parseResponse('LTRIM noSubscri...')
+#1 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2-redis\Connection.php(355): yii\redis\Connection->executeCommand('LTRIM', Array)
+#2 F:\Project\MyExp\trunk\server\console\controllers\TrackingcodeController.php(52): yii\redis\Connection->__call('LTRIM', Array)
+#3 [internal function]: console\controllers\TrackingcodeController->actionSubscribe(NULL, NULL)
+#4 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('subscribe', Array)
+#7 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('subscribe', Array)
+#8 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('trackingcode/su...', Array)
+#9 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('trackingcode/su...', Array)
+#10 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+)
+
+2016-12-02 15:07:30 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Q2INZVVZKFVDD4U'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Q2INZVVZKFVDD4U'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Q2INZVVZKFVDD4U'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\Linux\\VirtualBox\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'F:\\Project\\MyExp\\trunk\\server\\console\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_NAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_FILENAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'PATH_TRANSLATED' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480662450.6241
+    'REQUEST_TIME' => 1480662450
+    'argv' => [
+        0 => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+        1 => 'trackingcode/subscribe'
+    ]
+    'argc' => 2
+]
+2016-12-02 15:13:02 [-][-][-][error][yii\base\UnknownMethodException] yii\base\UnknownMethodException: Calling unknown method: yii\redis\Connection::LGET() in F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Component.php:285
+Stack trace:
+#0 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2-redis\Connection.php(357): yii\base\Component->__call('LGET', Array)
+#1 F:\Project\MyExp\trunk\server\console\controllers\TrackingcodeController.php(22): yii\redis\Connection->__call('LGET', Array)
+#2 [internal function]: console\controllers\TrackingcodeController->actionSubscribe(NULL, NULL)
+#3 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('subscribe', Array)
+#6 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('subscribe', Array)
+#7 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('trackingcode/su...', Array)
+#8 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('trackingcode/su...', Array)
+#9 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#11 {main}
+2016-12-02 15:13:02 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Q2INZVVZKFVDD4U'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Q2INZVVZKFVDD4U'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Q2INZVVZKFVDD4U'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\Linux\\VirtualBox\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'F:\\Project\\MyExp\\trunk\\server\\console\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_NAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_FILENAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'PATH_TRANSLATED' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480662782.1331
+    'REQUEST_TIME' => 1480662782
+    'argv' => [
+        0 => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+        1 => 'trackingcode/subscribe'
+    ]
+    'argc' => 2
+]
+2016-12-02 15:29:16 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: paramArr in F:\Project\MyExp\trunk\server\console\controllers\TrackingcodeController.php:39
+Stack trace:
+#0 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#1 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#2 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction()
+#3 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#4 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#5 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#6 F:\Project\MyExp\trunk\server\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#7 F:\Project\MyExp\trunk\server\console\yii(24): yii\base\Application->run()
+#8 {main}
+2016-12-02 15:29:15 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Q2INZVVZKFVDD4U'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Q2INZVVZKFVDD4U'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Q2INZVVZKFVDD4U'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\Linux\\VirtualBox\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'F:\\Project\\MyExp\\trunk\\server\\console\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_NAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'SCRIPT_FILENAME' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'PATH_TRANSLATED' => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480663755.5937
+    'REQUEST_TIME' => 1480663755
+    'argv' => [
+        0 => 'F:\\Project\\MyExp\\trunk\\server\\console\\yii'
+        1 => 'trackingcode/subscribe'
+    ]
+    'argc' => 2
+]
