@@ -13,14 +13,14 @@ class Controller extends YiiController {
         parent::beforeAction($action);
 
         // 如果没有session，则尝试通过author key 自动登录
-        if (Yii::$app->authMember->isGuest()) {
-            Yii::$app->authMember->loginByAuthKey();
-        }
+        // if (Yii::$app->authMember->isGuest()) {
+        //     Yii::$app->authMember->loginByAuthKey();
+        // }
 
-        // 验证用户是否登录用户的action
-        if (!Yii::$app->authMember->checkAuth()) {
-            return $this->redirect(['site/login']);
-        }
+        // // 验证用户是否登录用户的action
+        // if (!Yii::$app->authMember->checkAuth()) {
+        //     return $this->redirect(['site/login']);
+        // }
         return true;
     }
 

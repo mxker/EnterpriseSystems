@@ -42,7 +42,7 @@ $this->registerJs($js, $this::POS_END);
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="教育机构 培训机构" />
-    <title>EDU website<?=Html::encode($this->title)?></title>
+    <title>edu website<?=Html::encode($this->title)?></title>
     <?php $this->head()?>
 </head>
 <!-- /Head -->
@@ -55,7 +55,7 @@ $this->registerJs($js, $this::POS_END);
             <div class="header-top">
                 <p><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>Phone:+128-546-6853</p>
                 <div class="logo">
-                    <h1><a href="index.html">WebSite</a></h1>
+                    <h1><a href="/site/index">WebSite</a></h1>
                 </div>
                 <div class="social-icons">
                     <ul>
@@ -83,12 +83,12 @@ $this->registerJs($js, $this::POS_END);
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
                               <ul class="nav navbar-nav">
-                                <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
-                                <li><a href="about.html">ABOUT</a></li>
-                                <li><a href="typography.html">Short codes</a></li>
-                                <li><a href="gallery.html">classes</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="contact.html">Contact Us</a></li>
+                                <li><a href="/site/index">Home <span class="sr-only">(current)</span></a></li>
+                                <li><a href="/about/about">ABOUT</a></li>
+                                <li><a href="/codes/codes">Short codes</a></li>
+                                <li><a href="/classes/classes">classes</a></li>
+                                <li><a href="/blog/blog">Blog</a></li>
+                                <li><a href="/contact/contact">Contact Us</a></li>
                               </ul>
                           <div class="clearfix"></div>
                         </div><!-- /.navbar-collapse -->
@@ -142,12 +142,12 @@ $this->registerJs($js, $this::POS_END);
                 </div>
                 <div class="footer-nav">
                     <ul>
-                        <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
-                        <li><a href="about.html">ABOUT</a></li>
-                        <li><a href="typography.html">Short codes</a></li>
-                        <li><a href="gallery.html">GALLERY</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="index">Home <span class="sr-only">(current)</span></a></li>
+                        <li><a href="about">ABOUT</a></li>
+                        <li><a href="typography">Short codes</a></li>
+                        <li><a href="gallery">GALLERY</a></li>
+                        <li><a href="blog">Blog</a></li>
+                        <li><a href="contact">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="clearfix"></div>
