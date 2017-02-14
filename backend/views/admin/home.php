@@ -2,7 +2,7 @@
 /* @var $this yii\web\View */
 $this->title = '个人中心';
 $this->params['active_menu'] = ['home', 'home'];
-$this->params['header_titles'] = ['首页', '面板'];
+$this->params['header_titles'] = ['个人中心', '个人信息'];
 ?>
 <h1>admin/home</h1>
 

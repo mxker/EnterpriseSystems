@@ -13,7 +13,7 @@ class AppAsset extends AssetBundle {
 
 
     public $depends = [
-        'common\assets\CommonAsset',
+        'common\assets\BackendAsset',
         'common\assets\BeyondJS',
     ];
 

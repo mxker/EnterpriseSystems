@@ -3,7 +3,7 @@ namespace common\assets;
 use yii\web\AssetBundle;
 
 class DataTablesAsset extends AssetBundle {
-    public $sourcePath = '@common/assets/resource';
+    public $sourcePath = '@common/assets/resourceback';
 
     public $js = [
     ];

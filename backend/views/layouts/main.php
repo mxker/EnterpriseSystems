@@ -15,36 +15,14 @@ AppAsset::register($this);
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>SuperB-Grace 管理后台 <?=Html::encode($this->title)?></title>
+    <title>Edu MyAdmin <?=Html::encode($this->title)?></title>
     <?php $this->head()?>
 </head>
 <!-- /Head -->
 <!-- Body -->
 <body>
     <?php $this->beginBody()?>
-    <!-- Loading Container -->
-    <div class="loading-container">
-        <div class="loading-progress">
-            <div class="rotator">
-                <div class="rotator">
-                    <div class="rotator colored">
-                        <div class="rotator">
-                            <div class="rotator colored">
-                                <div class="rotator colored"></div>
-                                <div class="rotator"></div>
-                            </div>
-                            <div class="rotator colored"></div>
-                        </div>
-                        <div class="rotator"></div>
-                    </div>
-                    <div class="rotator"></div>
-                </div>
-                <div class="rotator"></div>
-            </div>
-            <div class="rotator"></div>
-        </div>
-    </div>
-    <!--  /Loading Container -->
+
     <!-- Navbar -->
     <div class="navbar">
         <div class="navbar-inner">
@@ -63,7 +41,6 @@ AppAsset::register($this);
                     <i class="collapse-icon fa fa-bars"></i>
                 </div>
                 <!-- /Sidebar Collapse -->
-
                 <?=MenuTopWidget::widget(['params' => $this->params])?>
 
                 <!-- Account Area and Settings -->
@@ -76,13 +53,13 @@ AppAsset::register($this);
                                         <img src="/img/avatars/adam-jansen.jpg">
                                     </div>
                                     <section>
-                                        <h2><span class="profile"><span>David Stevenson</span></span></h2>
+                                        <h2><span class="profile"><span>MyAdmin</span></span></h2>
                                     </section>
                                 </a>
                                 <!--Login Area Dropdown-->
                                 <ul class="pull-right dropdown-menu dropdown-arrow dropdown-login-area">
-                                    <li class="username"><a>David Stevenson</a></li>
-                                    <li class="email"><a>David.Stevenson@live.com</a></li>
+                                    <li class="username"><a>MyAdmin</a></li>
+                                    <li class="email"><a>www.mxker.cn</a></li>
                                     <!--Avatar Area-->
                                     <li>
                                         <div class="avatar-area">

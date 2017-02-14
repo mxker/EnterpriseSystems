@@ -8,6 +8,7 @@ use yii\helpers\Url;
 
 \frontend\assets\IndexAsset::register($this);
 \common\assets\ResponsiveslidesJs::register($this);
+$this->registerLinkTag(['href' => 'https://fonts.googleapis.com/css?family=Open+Sans:400,700,600italic,400italic,600,300italic,300,700italic,800,800italic', 'rel' => 'stylesheet', 'type' => 'text/css']);
 \common\assets\MoveTopJs::register($this);
 \common\assets\EasingJs::register($this);
 

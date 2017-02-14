@@ -3,7 +3,7 @@ namespace common\assets;
 use yii\web\AssetBundle;
 
 class Select2Asset extends AssetBundle {
-    public $sourcePath = '@common/assets/resource';
+    public $sourcePath = '@common/assets/resourceback';
 
     public $js = [
         'js/select2/select2.js'

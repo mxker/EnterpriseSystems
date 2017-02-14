@@ -12,7 +12,7 @@ class IndexAsset extends AssetBundle {
         
     ];
     public $depends = [
-        'common\assets\CommonAsset',
+        'common\assets\FrontCommonAsset',
     ];
 
 }

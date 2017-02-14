@@ -3,7 +3,7 @@ namespace common\assets;
 use yii\web\AssetBundle;
 
 class TreeviewAsset extends AssetBundle {
-    public $sourcePath = '@common/assets/resource';
+    public $sourcePath = '@common/assets/resourceback';
 
     public $js = [
         'js/fuelux/treeview/tree-custom.min.js',

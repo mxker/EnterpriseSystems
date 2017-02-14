@@ -2,7 +2,7 @@
 $params = require __DIR__ . '/params.php';
 
 $config = [
-    'id' => 'myexpress-backend',
+    'id' => 'edu-backend',
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
@@ -23,7 +23,7 @@ $config = [
             ],
         ],
         'errorHandler' => [
-            'errorAction' => 'site/error',
+            'errorAction' => 'site/error_500',
         ],
         'session' => [
             'name' => 'mebss',

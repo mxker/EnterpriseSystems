@@ -27,7 +27,7 @@ class SiteController extends Controller {
         if (!Yii::$app->authAdmin->isGuest()) {
             return $this->redirect(['admin/home']);
         }
-        $this->layout = false;
+        $this->layout = '@app/views/layouts/index_layout.php';
         $model = new LoginForm();
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
             return $this->redirect(['admin/home']);

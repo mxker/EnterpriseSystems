@@ -28,9 +28,9 @@ class Controller extends YiiController {
 
         // 从角色权限表中判断当前用户的权限
         if (!Yii::$app->authAdmin->checkAuth()) {
-            if (Yii::$app->authAdmin->isGuest()) {
-                return $this->redirect(['site/error']);
-            } else {
+            if (!Yii::$app->authAdmin->isGuest()) {
+                return $this->redirect(['site/login']);
+            }else{
                 return $this->redirect(['site/login']);
             }
         }
