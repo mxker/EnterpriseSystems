@@ -2,32 +2,26 @@
 return [
     'menu_data' => [
         'home' => [
-            'title' => '个人中心', 'url' => ['admin/home'], 'class' => 'glyphicon glyphicon-home',
+            'title' => '系统设置', 'url' => ['admin/home'], 'class' => 'glyphicon glyphicon-home',
             'child' => [
-                'home' => ['title' => '个人信息', 'url' => ['admin/home'], 'class' => 'glyphicon glyphicon-home'],
-            ],
-        ],
-
-        'stat' => [
-            'title' => '财务报表', 'url' => ['stat/index'], 'class' => 'glyphicon glyphicon-home',
-            'child' => [
-                'index' => ['title' => '财务报表', 'url' => ['stat/index'], 'class' => 'glyphicon glyphicon-home'],
+                'home' => ['title' => '基本信息', 'url' => ['admin/home'], 'class' => 'glyphicon glyphicon-home'],
+                'info' => ['title' => '公司信息', 'url' => ['admin/info'], 'class' => 'glyphicon glyphicon-info-sign'],
             ],
         ],
 
         'order' => [
             'title' => '订单中心', 'url' => ['order/list'], 'class' => 'glyphicon glyphicon-home',
             'child' => [
-                'order' => ['title' => '订单列表', 'url' => ['order/list'], 'class' => 'glyphicon glyphicon-home'],
+                'order' => ['title' => '订单列表', 'url' => ['order/list'], 'class' => 'glyphicon glyphicon-th-list'],
             ],
         ],
 
-        'member' => [
-            'title' => '会员信息', 'url' => ['member/list'], 'class' => 'glyphicon glyphicon-home',
-            'child' => [
-                'member' => ['title' => '会员列表', 'url' => ['member/list'], 'class' => 'glyphicon glyphicon-home'],
-            ],
-        ],
+        // 'member' => [
+        //     'title' => '会员信息', 'url' => ['member/list'], 'class' => 'glyphicon glyphicon-home',
+        //     'child' => [
+        //         'member' => ['title' => '会员列表', 'url' => ['member/list'], 'class' => 'glyphicon glyphicon-home'],
+        //     ],
+        // ],
 
         'system' => [
             'title' => '系统设置', 'url' => ['logistics-channel/list'], 'class' => 'glyphicon glyphicon-home',

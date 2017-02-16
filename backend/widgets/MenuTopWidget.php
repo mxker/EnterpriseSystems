@@ -16,7 +16,7 @@ class MenuTopWidget extends Widget {
         $keys = array_keys($this->menu_data);
 
         if (!isset($this->params['active_menu'][0]) || !in_array($this->params['active_menu'][0], $keys)) {
-            throw new Exception('请在view文件中配置 $this->params[\'active_menu\'][0] 的值，该值用于显示菜单的选中状态，值的范围是' . join('、', $keys));
+            throw new Exception('请在view文件中配置 $this->params[\'active_menu\'] 的值，该值用于显示菜单的选中状态，值的范围是' . join('、', $keys));
         }
     }
     public function run() {
