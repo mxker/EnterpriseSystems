@@ -49,8 +49,12 @@ $this->registerJs($js,$this::POS_END);
             ])?>
 
             <!--  注册select的默认值   -->
-
-            <?= $form->field($model, 'username')->label('公司名称')?>
+            <?= $form->field($model, 'company_name')->label('公司名称')?>
+            <?= $form->field($model, 'company_tel')?>
+            <?= $form->field($model, 'company_logo')?>
+            <?= $form->field($model, 'company_area')?>
+            <?= $form->field($model, 'culture')?>
+            <?= $form->field($model, 'description')?>
 
             <div class="col-lg-offset-4" style="padding-bottom: 50px;">
                 <?= Html::submitButton('保存并修改', ['class' => 'btn btn-primary'])?>
