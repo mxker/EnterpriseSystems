@@ -1,7 +1,8 @@
 <?php
 namespace backend\models\form;
 use yii;
-use common\models\company as BCompany;
+use yii\db\Exception;
+use common\models\Company as BCompany;
 /**
 * 公司基本模型
 */
@@ -34,11 +35,14 @@ class CompanyForm extends BCompany{
         return $this->find()->select($fields)->where($condition)->asArray()->one();
     }
 
-    public function addChannel(){
-//        $model = new LogisticsChannel();
-        $model->name = $this->name;
-        $model->country_id = $this->country_id;
-
+    public function add($params){
+        $model = new BCompany();
+        $model->company_name    = $params['company_name'];
+        $model->company_tel     = $params['company_tel'];
+        $model->company_logo    = $params['company_logo'];
+        $model->company_area    = $params['company_area'];
+        $model->culture         = $params['culture'];
+        $model->description     = $params['description'];
         if($model->save()){
             return true;
         }else{
@@ -46,11 +50,25 @@ class CompanyForm extends BCompany{
         }
     }
 
-    public function editChannel($id){
-        if($model->save()){
-            return true;
-        }else{
-            return false;
+    public function edit($params){
+        $DB = yii::$app->db;
+        $transaction = $DB->beginTransaction();
+        try {
+            $model = BCompany::findOne($params['company_id']);
+            $model->company_name    = $params['company_name'];
+            $model->company_tel     = $params['company_tel'];
+            $model->company_logo    = $params['company_logo'];
+            $model->company_area    = $params['company_area'];
+            $model->culture         = $params['culture'];
+            $model->description     = $params['description'];
+            if($model->save()){
+                return true;
+            }else{
+                throw new Exception("更新失败");
+            }
+            $transaction->commit();
+        } catch (Exception $e) {
+            $transaction->rollBack();
         }
     }
 }

@@ -5,7 +5,7 @@ use common\assets;
 DataTablesAsset::register($this);
 $this->title = '系统设置';
 $this->params['active_menu'] = ['home', 'home'];
-$this->params['header_titles'] = ['系统设置', '公司信息'];
+$this->params['header_titles'] = ['系统设置', '基本信息'];
 
 $css = <<<EOF
     .row-title{

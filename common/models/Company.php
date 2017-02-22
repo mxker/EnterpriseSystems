@@ -45,7 +45,7 @@ class Company extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'company_id' => '公司id',
+            'company_id' => '',
             'company_name' => '公司名称',
             'company_logo' => '公司logo',
             'company_tel' => '公司电话',
