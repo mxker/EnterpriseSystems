@@ -82237,3 +82237,2269 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1499908915.3224
     'REQUEST_TIME' => 1499908915
 ]
+2017-02-21 09:48:20 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "img/avatars/avatar.jpg". in F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Module.php:462
+Stack trace:
+#0 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('img/avatars/ava...', Array)
+#1 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 F:\Project\Yii2Web\git\edu\backend\web\index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\Project\Yii2Web\git\edu\backend\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2017-02-21 09:48:20 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'mebss' => '3gcs7tft5ddao9d5meh16dq3p1'
+    '_csrf' => '581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wUrYYN5UPL2WX5chrzHtWx33eTFacWuM\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'admin.demo.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2783.4 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.demo.com/admin/home'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'mebss=3gcs7tft5ddao9d5meh16dq3p1; _csrf=581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wUrYYN5UPL2WX5chrzHtWx33eTFacWuM%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\bin;C:\\Program Files\\VanDyke Software\\Clients\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win64) PHP/7.0.0 Server at admin.demo.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win64) PHP/7.0.0'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/Project/Yii2Web/git/edu/backend/web/index.php'
+    'REMOTE_PORT' => '57584'
+    'REDIRECT_URL' => 'http://admin.demo.com/img/avatars/avatar.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/img/avatars/avatar.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487641700.847
+    'REQUEST_TIME' => 1487641700
+]
+2017-02-21 09:53:20 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "addr-sender/save". in F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Module.php:462
+Stack trace:
+#0 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('addr-sender/sav...', Array)
+#1 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 F:\Project\Yii2Web\git\edu\backend\web\index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\Project\Yii2Web\git\edu\backend\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2017-02-21 09:53:20 [127.0.0.1][-][-][info][application] $_POST = [
+    '_csrf' => 'R01sbkQ1OXkwGB43HXsMLBcBXjkcAFoRNTckGhNNCkoiGSoPJ2JMNA=='
+    'CompanyForm' => [
+        'company_name' => '凡是教育'
+        'company_tel' => '18283609999'
+        'company_logo' => ''
+        'company_area' => '成都市高新区天府软件园'
+        'culture' => '担当与分享'
+        'description' => ''
+    ]
+]
+
+$_COOKIE = [
+    'mebss' => '3gcs7tft5ddao9d5meh16dq3p1'
+    '_csrf' => '581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wUrYYN5UPL2WX5chrzHtWx33eTFacWuM\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'admin.demo.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '436'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://admin.demo.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2783.4 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.demo.com/admin/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'mebss=3gcs7tft5ddao9d5meh16dq3p1; _csrf=581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wUrYYN5UPL2WX5chrzHtWx33eTFacWuM%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\bin;C:\\Program Files\\VanDyke Software\\Clients\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win64) PHP/7.0.0 Server at admin.demo.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win64) PHP/7.0.0'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/Project/Yii2Web/git/edu/backend/web/index.php'
+    'REMOTE_PORT' => '58058'
+    'REDIRECT_URL' => 'http://admin.demo.com/addr-sender/save'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/addr-sender/save'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487642000.383
+    'REQUEST_TIME' => 1487642000
+]
+2017-02-21 09:54:21 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: backend\models\form\CompanyForm::name in F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\db\BaseActiveRecord.php(286): yii\base\Component->__get('name')
+#1 F:\Project\Yii2Web\git\edu\backend\models\form\CompanyForm.php(39): yii\db\BaseActiveRecord->__get('name')
+#2 F:\Project\Yii2Web\git\edu\backend\controllers\AdminController.php(43): backend\models\form\CompanyForm->addChannel()
+#3 [internal function]: backend\controllers\AdminController->actionSave()
+#4 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('save', Array)
+#7 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('admin/save', Array)
+#8 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 F:\Project\Yii2Web\git\edu\backend\web\index.php(16): yii\base\Application->run()
+#10 {main}
+2017-02-21 09:54:20 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][info][application] $_POST = [
+    '_csrf' => 'dlJrR21ZTmkBBxkeNBd7PCYeWRA1bC0BBCgjMzohfVoTBi0mDg47JA=='
+    'CompanyForm' => [
+        'company_name' => '凡是教育'
+        'company_tel' => '18283609999'
+        'company_logo' => ''
+        'company_area' => '成都市高新区天府软件园'
+        'culture' => '担当与分享'
+        'description' => ''
+    ]
+]
+
+$_COOKIE = [
+    'mebss' => '3gcs7tft5ddao9d5meh16dq3p1'
+    '_csrf' => '581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wUrYYN5UPL2WX5chrzHtWx33eTFacWuM\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'admin_id' => 1
+        'username' => 'myadmin'
+        'role_id' => -1
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'admin.demo.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '436'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://admin.demo.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2783.4 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.demo.com/admin/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'mebss=3gcs7tft5ddao9d5meh16dq3p1; _csrf=581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wUrYYN5UPL2WX5chrzHtWx33eTFacWuM%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\bin;C:\\Program Files\\VanDyke Software\\Clients\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win64) PHP/7.0.0 Server at admin.demo.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win64) PHP/7.0.0'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/Project/Yii2Web/git/edu/backend/web/index.php'
+    'REMOTE_PORT' => '58166'
+    'REDIRECT_URL' => 'http://admin.demo.com/admin/save'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/save'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487642060.907
+    'REQUEST_TIME' => 1487642060
+]
+2017-02-21 10:05:18 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: backend\models\form\CompanyForm::save in F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\db\BaseActiveRecord.php(286): yii\base\Component->__get('save')
+#1 F:\Project\Yii2Web\git\edu\backend\controllers\AdminController.php(43): yii\db\BaseActiveRecord->__get('save')
+#2 [internal function]: backend\controllers\AdminController->actionSave()
+#3 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('save', Array)
+#6 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('admin/save', Array)
+#7 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 F:\Project\Yii2Web\git\edu\backend\web\index.php(16): yii\base\Application->run()
+#9 {main}
+2017-02-21 10:05:17 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][info][application] $_POST = [
+    '_csrf' => 'dnZxQWNrQS4BIwMYOiV0eyY6QxY7XiJGBAw5NTQTch0TIjcgADw0Yw=='
+    'CompanyForm' => [
+        'company_name' => '凡是教育'
+        'company_tel' => '18283609999'
+        'company_logo' => ''
+        'company_area' => '成都市高新区天府软件园'
+        'culture' => '担当与分享'
+        'description' => ''
+        'company_id' => '1'
+    ]
+]
+
+$_COOKIE = [
+    'mebss' => '3gcs7tft5ddao9d5meh16dq3p1'
+    '_csrf' => '581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wUrYYN5UPL2WX5chrzHtWx33eTFacWuM\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'admin_id' => 1
+        'username' => 'myadmin'
+        'role_id' => -1
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'admin.demo.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '466'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://admin.demo.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2783.4 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.demo.com/admin/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'mebss=3gcs7tft5ddao9d5meh16dq3p1; _csrf=581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wUrYYN5UPL2WX5chrzHtWx33eTFacWuM%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\bin;C:\\Program Files\\VanDyke Software\\Clients\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win64) PHP/7.0.0 Server at admin.demo.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win64) PHP/7.0.0'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/Project/Yii2Web/git/edu/backend/web/index.php'
+    'REMOTE_PORT' => '59330'
+    'REDIRECT_URL' => 'http://admin.demo.com/admin/save'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/save'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487642717.848
+    'REQUEST_TIME' => 1487642717
+]
+2017-02-22 09:52:42 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: backend\models\form\CompanyForm::save in F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\db\BaseActiveRecord.php(286): yii\base\Component->__get('save')
+#1 F:\Project\Yii2Web\git\edu\backend\controllers\AdminController.php(43): yii\db\BaseActiveRecord->__get('save')
+#2 [internal function]: backend\controllers\AdminController->actionSave()
+#3 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('save', Array)
+#6 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('admin/save', Array)
+#7 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 F:\Project\Yii2Web\git\edu\backend\web\index.php(16): yii\base\Application->run()
+#9 {main}
+2017-02-22 09:52:41 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][info][application] $_POST = [
+    '_csrf' => 'dnZxQWNrQS4BIwMYOiV0eyY6QxY7XiJGBAw5NTQTch0TIjcgADw0Yw=='
+    'CompanyForm' => [
+        'company_name' => '凡是教育'
+        'company_tel' => '18283609999'
+        'company_logo' => ''
+        'company_area' => '成都市高新区天府软件园'
+        'culture' => '担当与分享'
+        'description' => ''
+        'company_id' => '1'
+    ]
+]
+
+$_COOKIE = [
+    'mebss' => '3gcs7tft5ddao9d5meh16dq3p1'
+    '_csrf' => '581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wUrYYN5UPL2WX5chrzHtWx33eTFacWuM\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'admin_id' => 1
+        'username' => 'myadmin'
+        'role_id' => -1
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'admin.demo.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '466'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://admin.demo.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2783.4 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.demo.com/admin/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'mebss=3gcs7tft5ddao9d5meh16dq3p1; _csrf=581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wUrYYN5UPL2WX5chrzHtWx33eTFacWuM%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\bin;C:\\Program Files\\VanDyke Software\\Clients\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win64) PHP/7.0.0 Server at admin.demo.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win64) PHP/7.0.0'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/Project/Yii2Web/git/edu/backend/web/index.php'
+    'REMOTE_PORT' => '52536'
+    'REDIRECT_URL' => 'http://admin.demo.com/admin/save'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/save'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487728360.806
+    'REQUEST_TIME' => 1487728360
+]
+2017-02-22 10:03:53 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: backend\models\form\CompanyForm::save in F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\db\BaseActiveRecord.php(286): yii\base\Component->__get('save')
+#1 F:\Project\Yii2Web\git\edu\backend\controllers\AdminController.php(43): yii\db\BaseActiveRecord->__get('save')
+#2 [internal function]: backend\controllers\AdminController->actionSave()
+#3 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('save', Array)
+#6 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('admin/save', Array)
+#7 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 F:\Project\Yii2Web\git\edu\backend\web\index.php(16): yii\base\Application->run()
+#9 {main}
+2017-02-22 10:03:52 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][info][application] $_POST = [
+    '_csrf' => 'dnZxQWNrQS4BIwMYOiV0eyY6QxY7XiJGBAw5NTQTch0TIjcgADw0Yw=='
+    'CompanyForm' => [
+        'company_name' => '凡是教育'
+        'company_tel' => '18283609999'
+        'company_logo' => ''
+        'company_area' => '成都市高新区天府软件园'
+        'culture' => '担当与分享'
+        'description' => ''
+        'company_id' => '1'
+    ]
+]
+
+$_COOKIE = [
+    'mebss' => '3gcs7tft5ddao9d5meh16dq3p1'
+    '_csrf' => '581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wUrYYN5UPL2WX5chrzHtWx33eTFacWuM\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'admin_id' => 1
+        'username' => 'myadmin'
+        'role_id' => -1
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'admin.demo.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '466'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://admin.demo.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2783.4 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.demo.com/admin/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'mebss=3gcs7tft5ddao9d5meh16dq3p1; _csrf=581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wUrYYN5UPL2WX5chrzHtWx33eTFacWuM%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\bin;C:\\Program Files\\VanDyke Software\\Clients\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win64) PHP/7.0.0 Server at admin.demo.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win64) PHP/7.0.0'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/Project/Yii2Web/git/edu/backend/web/index.php'
+    'REMOTE_PORT' => '53422'
+    'REDIRECT_URL' => 'http://admin.demo.com/admin/save'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/save'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487729032.565
+    'REQUEST_TIME' => 1487729032
+]
+2017-02-22 10:12:30 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: backend\models\form\CompanyForm::save in F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\db\BaseActiveRecord.php(286): yii\base\Component->__get('save')
+#1 F:\Project\Yii2Web\git\edu\backend\controllers\AdminController.php(43): yii\db\BaseActiveRecord->__get('save')
+#2 [internal function]: backend\controllers\AdminController->actionSave()
+#3 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('save', Array)
+#6 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('admin/save', Array)
+#7 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 F:\Project\Yii2Web\git\edu\backend\web\index.php(16): yii\base\Application->run()
+#9 {main}
+2017-02-22 10:12:29 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][info][application] $_POST = [
+    '_csrf' => 'dnZxQWNrQS4BIwMYOiV0eyY6QxY7XiJGBAw5NTQTch0TIjcgADw0Yw=='
+    'CompanyForm' => [
+        'company_name' => '凡是教育'
+        'company_tel' => '18283609999'
+        'company_logo' => ''
+        'company_area' => '成都市高新区天府软件园'
+        'culture' => '担当与分享'
+        'description' => ''
+        'company_id' => '1'
+    ]
+]
+
+$_COOKIE = [
+    'mebss' => '3gcs7tft5ddao9d5meh16dq3p1'
+    '_csrf' => '581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wUrYYN5UPL2WX5chrzHtWx33eTFacWuM\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'admin_id' => 1
+        'username' => 'myadmin'
+        'role_id' => -1
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'admin.demo.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '466'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://admin.demo.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2783.4 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.demo.com/admin/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'mebss=3gcs7tft5ddao9d5meh16dq3p1; _csrf=581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wUrYYN5UPL2WX5chrzHtWx33eTFacWuM%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\bin;C:\\Program Files\\VanDyke Software\\Clients\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win64) PHP/7.0.0 Server at admin.demo.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win64) PHP/7.0.0'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/Project/Yii2Web/git/edu/backend/web/index.php'
+    'REMOTE_PORT' => '54356'
+    'REDIRECT_URL' => 'http://admin.demo.com/admin/save'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/save'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487729549.51
+    'REQUEST_TIME' => 1487729549
+]
+2017-02-22 10:22:16 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: backend\models\form\CompanyForm::save in F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\db\BaseActiveRecord.php(286): yii\base\Component->__get('save')
+#1 F:\Project\Yii2Web\git\edu\backend\controllers\AdminController.php(43): yii\db\BaseActiveRecord->__get('save')
+#2 [internal function]: backend\controllers\AdminController->actionSave()
+#3 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('save', Array)
+#6 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('admin/save', Array)
+#7 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 F:\Project\Yii2Web\git\edu\backend\web\index.php(16): yii\base\Application->run()
+#9 {main}
+2017-02-22 10:22:16 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][info][application] $_POST = [
+    '_csrf' => 'dnZxQWNrQS4BIwMYOiV0eyY6QxY7XiJGBAw5NTQTch0TIjcgADw0Yw=='
+    'CompanyForm' => [
+        'company_name' => '凡是教育'
+        'company_tel' => '18283609999'
+        'company_logo' => ''
+        'company_area' => '成都市高新区天府软件园'
+        'culture' => '担当与分享'
+        'description' => ''
+        'company_id' => '1'
+    ]
+]
+
+$_COOKIE = [
+    'mebss' => '3gcs7tft5ddao9d5meh16dq3p1'
+    '_csrf' => '581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wUrYYN5UPL2WX5chrzHtWx33eTFacWuM\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'admin_id' => 1
+        'username' => 'myadmin'
+        'role_id' => -1
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'admin.demo.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '466'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://admin.demo.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2783.4 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.demo.com/admin/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'mebss=3gcs7tft5ddao9d5meh16dq3p1; _csrf=581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wUrYYN5UPL2WX5chrzHtWx33eTFacWuM%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\bin;C:\\Program Files\\VanDyke Software\\Clients\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win64) PHP/7.0.0 Server at admin.demo.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win64) PHP/7.0.0'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/Project/Yii2Web/git/edu/backend/web/index.php'
+    'REMOTE_PORT' => '55572'
+    'REDIRECT_URL' => 'http://admin.demo.com/admin/save'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/save'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487730136.377
+    'REQUEST_TIME' => 1487730136
+]
+2017-02-22 10:22:20 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: backend\models\form\CompanyForm::save in F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\db\BaseActiveRecord.php(286): yii\base\Component->__get('save')
+#1 F:\Project\Yii2Web\git\edu\backend\controllers\AdminController.php(43): yii\db\BaseActiveRecord->__get('save')
+#2 [internal function]: backend\controllers\AdminController->actionSave()
+#3 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('save', Array)
+#6 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('admin/save', Array)
+#7 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 F:\Project\Yii2Web\git\edu\backend\web\index.php(16): yii\base\Application->run()
+#9 {main}
+2017-02-22 10:22:20 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][info][application] $_POST = [
+    '_csrf' => 'dnZxQWNrQS4BIwMYOiV0eyY6QxY7XiJGBAw5NTQTch0TIjcgADw0Yw=='
+    'CompanyForm' => [
+        'company_name' => '凡是教育'
+        'company_tel' => '18283609999'
+        'company_logo' => ''
+        'company_area' => '成都市高新区天府软件园'
+        'culture' => '担当与分享'
+        'description' => ''
+        'company_id' => '1'
+    ]
+]
+
+$_COOKIE = [
+    'mebss' => '3gcs7tft5ddao9d5meh16dq3p1'
+    '_csrf' => '581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wUrYYN5UPL2WX5chrzHtWx33eTFacWuM\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'admin_id' => 1
+        'username' => 'myadmin'
+        'role_id' => -1
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'admin.demo.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '466'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://admin.demo.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2783.4 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.demo.com/admin/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'mebss=3gcs7tft5ddao9d5meh16dq3p1; _csrf=581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wUrYYN5UPL2WX5chrzHtWx33eTFacWuM%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\bin;C:\\Program Files\\VanDyke Software\\Clients\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win64) PHP/7.0.0 Server at admin.demo.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win64) PHP/7.0.0'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/Project/Yii2Web/git/edu/backend/web/index.php'
+    'REMOTE_PORT' => '55573'
+    'REDIRECT_URL' => 'http://admin.demo.com/admin/save'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/save'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487730140.205
+    'REQUEST_TIME' => 1487730140
+]
+2017-02-22 10:29:26 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/error-404 in F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('error-404', Array)
+#1 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('site/error-404', Array)
+#2 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 F:\Project\Yii2Web\git\edu\backend\web\index.php(16): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\Project\Yii2Web\git\edu\backend\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2017-02-22 10:29:26 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'mebss' => '3gcs7tft5ddao9d5meh16dq3p1'
+    '_csrf' => '581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wUrYYN5UPL2WX5chrzHtWx33eTFacWuM\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'admin.demo.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2783.4 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.demo.com/admin/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'mebss=3gcs7tft5ddao9d5meh16dq3p1; _csrf=581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wUrYYN5UPL2WX5chrzHtWx33eTFacWuM%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\bin;C:\\Program Files\\VanDyke Software\\Clients\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win64) PHP/7.0.0 Server at admin.demo.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win64) PHP/7.0.0'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/Project/Yii2Web/git/edu/backend/web/index.php'
+    'REMOTE_PORT' => '56023'
+    'REDIRECT_URL' => 'http://admin.demo.com/site/error-404'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/error-404'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487730566.008
+    'REQUEST_TIME' => 1487730566
+]
+2017-02-22 10:29:39 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/error-404 in F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('error-404', Array)
+#1 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('site/error-404', Array)
+#2 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 F:\Project\Yii2Web\git\edu\backend\web\index.php(16): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\Project\Yii2Web\git\edu\backend\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2017-02-22 10:29:39 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'mebss' => '3gcs7tft5ddao9d5meh16dq3p1'
+    '_csrf' => '581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wUrYYN5UPL2WX5chrzHtWx33eTFacWuM\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'admin.demo.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2783.4 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.demo.com/admin/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'mebss=3gcs7tft5ddao9d5meh16dq3p1; _csrf=581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wUrYYN5UPL2WX5chrzHtWx33eTFacWuM%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\bin;C:\\Program Files\\VanDyke Software\\Clients\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win64) PHP/7.0.0 Server at admin.demo.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win64) PHP/7.0.0'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/Project/Yii2Web/git/edu/backend/web/index.php'
+    'REMOTE_PORT' => '56094'
+    'REDIRECT_URL' => 'http://admin.demo.com/site/error-404'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/error-404'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487730579.016
+    'REQUEST_TIME' => 1487730579
+]
+2017-02-22 10:29:55 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/error-405 in F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('error-405', Array)
+#1 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('site/error-405', Array)
+#2 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 F:\Project\Yii2Web\git\edu\backend\web\index.php(16): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\Project\Yii2Web\git\edu\backend\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2017-02-22 10:29:55 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'mebss' => '3gcs7tft5ddao9d5meh16dq3p1'
+    '_csrf' => '581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wUrYYN5UPL2WX5chrzHtWx33eTFacWuM\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'admin.demo.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2783.4 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.demo.com/admin/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'mebss=3gcs7tft5ddao9d5meh16dq3p1; _csrf=581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wUrYYN5UPL2WX5chrzHtWx33eTFacWuM%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\bin;C:\\Program Files\\VanDyke Software\\Clients\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win64) PHP/7.0.0 Server at admin.demo.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win64) PHP/7.0.0'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/Project/Yii2Web/git/edu/backend/web/index.php'
+    'REMOTE_PORT' => '56101'
+    'REDIRECT_URL' => 'http://admin.demo.com/site/error-405'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/error-405'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487730595.114
+    'REQUEST_TIME' => 1487730595
+]
+2017-02-22 10:32:26 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/error-405 in F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('error-405', Array)
+#1 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('site/error-405', Array)
+#2 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 F:\Project\Yii2Web\git\edu\backend\web\index.php(16): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\Project\Yii2Web\git\edu\backend\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2017-02-22 10:32:26 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'mebss' => '3gcs7tft5ddao9d5meh16dq3p1'
+    '_csrf' => '581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wUrYYN5UPL2WX5chrzHtWx33eTFacWuM\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'admin.demo.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2783.4 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.demo.com/admin/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'mebss=3gcs7tft5ddao9d5meh16dq3p1; _csrf=581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wUrYYN5UPL2WX5chrzHtWx33eTFacWuM%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\bin;C:\\Program Files\\VanDyke Software\\Clients\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win64) PHP/7.0.0 Server at admin.demo.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win64) PHP/7.0.0'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/Project/Yii2Web/git/edu/backend/web/index.php'
+    'REMOTE_PORT' => '56268'
+    'REDIRECT_URL' => 'http://admin.demo.com/site/error-405'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/error-405'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487730746.515
+    'REQUEST_TIME' => 1487730746
+]
+2017-02-22 10:32:30 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][error][Error] Error: Call to a member function save() on null in F:\Project\Yii2Web\git\edu\backend\controllers\AdminController.php:39
+Stack trace:
+#0 [internal function]: backend\controllers\AdminController->actionSave()
+#1 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#2 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('save', Array)
+#4 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('admin/save', Array)
+#5 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 F:\Project\Yii2Web\git\edu\backend\web\index.php(16): yii\base\Application->run()
+#7 {main}
+2017-02-22 10:32:29 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][info][application] $_POST = [
+    '_csrf' => 'VFA2bjVqNHYjBUQ3bCQBIwQcBDltX1ceJip.GmISB0UxBHAPVj1BOw=='
+    'CompanyForm' => [
+        'company_name' => '凡是教育'
+        'company_tel' => '18283609999'
+        'company_logo' => ''
+        'company_area' => '成都市高新区天府软件园'
+        'culture' => '担当与分享'
+        'description' => ''
+        'company_id' => ''
+    ]
+]
+
+$_COOKIE = [
+    'mebss' => '3gcs7tft5ddao9d5meh16dq3p1'
+    '_csrf' => '581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wUrYYN5UPL2WX5chrzHtWx33eTFacWuM\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'admin_id' => 1
+        'username' => 'myadmin'
+        'role_id' => -1
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'admin.demo.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '465'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://admin.demo.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2783.4 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.demo.com/admin/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'mebss=3gcs7tft5ddao9d5meh16dq3p1; _csrf=581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wUrYYN5UPL2WX5chrzHtWx33eTFacWuM%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\bin;C:\\Program Files\\VanDyke Software\\Clients\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win64) PHP/7.0.0 Server at admin.demo.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win64) PHP/7.0.0'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/Project/Yii2Web/git/edu/backend/web/index.php'
+    'REMOTE_PORT' => '56269'
+    'REDIRECT_URL' => 'http://admin.demo.com/admin/save'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/save'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487730749.568
+    'REQUEST_TIME' => 1487730749
+]
+2017-02-22 10:32:30 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2-debug\LogTarget.php:57
+
+Stack trace:
+#0 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2-debug\LogTarget.php(57): serialize(Array)
+#1 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#3 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(Error))
+#6 {main}
+2017-02-22 10:32:29 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][info][application] $_POST = [
+    '_csrf' => 'VFA2bjVqNHYjBUQ3bCQBIwQcBDltX1ceJip.GmISB0UxBHAPVj1BOw=='
+    'CompanyForm' => [
+        'company_name' => '凡是教育'
+        'company_tel' => '18283609999'
+        'company_logo' => ''
+        'company_area' => '成都市高新区天府软件园'
+        'culture' => '担当与分享'
+        'description' => ''
+        'company_id' => ''
+    ]
+]
+
+$_COOKIE = [
+    'mebss' => '3gcs7tft5ddao9d5meh16dq3p1'
+    '_csrf' => '581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wUrYYN5UPL2WX5chrzHtWx33eTFacWuM\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'admin_id' => 1
+        'username' => 'myadmin'
+        'role_id' => -1
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'admin.demo.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '465'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://admin.demo.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2783.4 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.demo.com/admin/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'mebss=3gcs7tft5ddao9d5meh16dq3p1; _csrf=581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wUrYYN5UPL2WX5chrzHtWx33eTFacWuM%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\bin;C:\\Program Files\\VanDyke Software\\Clients\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win64) PHP/7.0.0 Server at admin.demo.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win64) PHP/7.0.0'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/Project/Yii2Web/git/edu/backend/web/index.php'
+    'REMOTE_PORT' => '56269'
+    'REDIRECT_URL' => 'http://admin.demo.com/admin/save'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/save'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487730749.568
+    'REQUEST_TIME' => 1487730749
+]
+2017-02-22 10:37:28 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][error][Error] Error: Call to a member function save() on null in F:\Project\Yii2Web\git\edu\backend\controllers\AdminController.php:39
+Stack trace:
+#0 [internal function]: backend\controllers\AdminController->actionSave()
+#1 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#2 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('save', Array)
+#4 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('admin/save', Array)
+#5 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 F:\Project\Yii2Web\git\edu\backend\web\index.php(16): yii\base\Application->run()
+#7 {main}
+2017-02-22 10:37:27 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][info][application] $_POST = [
+    '_csrf' => 'S01PekJxZmQ8GD0jGz9TMRsBfS0aRAUMOTcHDhUJVVcuGQkbISYTKQ=='
+    'CompanyForm' => [
+        'company_name' => '凡是教育'
+        'company_tel' => '18283609999'
+        'company_logo' => ''
+        'company_area' => '成都市高新区天府软件园'
+        'culture' => '担当与分享'
+        'description' => ''
+        'company_id' => ''
+    ]
+]
+
+$_COOKIE = [
+    'mebss' => '3gcs7tft5ddao9d5meh16dq3p1'
+    '_csrf' => '581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wUrYYN5UPL2WX5chrzHtWx33eTFacWuM\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'admin_id' => 1
+        'username' => 'myadmin'
+        'role_id' => -1
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'admin.demo.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '465'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://admin.demo.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2783.4 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.demo.com/admin/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'mebss=3gcs7tft5ddao9d5meh16dq3p1; _csrf=581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wUrYYN5UPL2WX5chrzHtWx33eTFacWuM%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\bin;C:\\Program Files\\VanDyke Software\\Clients\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win64) PHP/7.0.0 Server at admin.demo.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win64) PHP/7.0.0'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/Project/Yii2Web/git/edu/backend/web/index.php'
+    'REMOTE_PORT' => '56585'
+    'REDIRECT_URL' => 'http://admin.demo.com/admin/save'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/save'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487731047.585
+    'REQUEST_TIME' => 1487731047
+]
+2017-02-22 10:37:28 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2-debug\LogTarget.php:57
+
+Stack trace:
+#0 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2-debug\LogTarget.php(57): serialize(Array)
+#1 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#3 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(Error))
+#6 {main}
+2017-02-22 10:37:27 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][info][application] $_POST = [
+    '_csrf' => 'S01PekJxZmQ8GD0jGz9TMRsBfS0aRAUMOTcHDhUJVVcuGQkbISYTKQ=='
+    'CompanyForm' => [
+        'company_name' => '凡是教育'
+        'company_tel' => '18283609999'
+        'company_logo' => ''
+        'company_area' => '成都市高新区天府软件园'
+        'culture' => '担当与分享'
+        'description' => ''
+        'company_id' => ''
+    ]
+]
+
+$_COOKIE = [
+    'mebss' => '3gcs7tft5ddao9d5meh16dq3p1'
+    '_csrf' => '581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wUrYYN5UPL2WX5chrzHtWx33eTFacWuM\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'admin_id' => 1
+        'username' => 'myadmin'
+        'role_id' => -1
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'admin.demo.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '465'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://admin.demo.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2783.4 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.demo.com/admin/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'mebss=3gcs7tft5ddao9d5meh16dq3p1; _csrf=581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wUrYYN5UPL2WX5chrzHtWx33eTFacWuM%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\bin;C:\\Program Files\\VanDyke Software\\Clients\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win64) PHP/7.0.0 Server at admin.demo.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win64) PHP/7.0.0'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/Project/Yii2Web/git/edu/backend/web/index.php'
+    'REMOTE_PORT' => '56585'
+    'REDIRECT_URL' => 'http://admin.demo.com/admin/save'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/save'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487731047.585
+    'REQUEST_TIME' => 1487731047
+]
+2017-02-22 10:38:55 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: backend\models\form\CompanyForm::save in F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\db\BaseActiveRecord.php(286): yii\base\Component->__get('save')
+#1 F:\Project\Yii2Web\git\edu\backend\controllers\AdminController.php(47): yii\db\BaseActiveRecord->__get('save')
+#2 [internal function]: backend\controllers\AdminController->actionSave()
+#3 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('save', Array)
+#6 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('admin/save', Array)
+#7 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 F:\Project\Yii2Web\git\edu\backend\web\index.php(16): yii\base\Application->run()
+#9 {main}
+2017-02-22 10:38:55 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][info][application] $_POST = [
+    '_csrf' => 'S01PekJxZmQ8GD0jGz9TMRsBfS0aRAUMOTcHDhUJVVcuGQkbISYTKQ=='
+    'CompanyForm' => [
+        'company_name' => '凡是教育'
+        'company_tel' => '18283609999'
+        'company_logo' => ''
+        'company_area' => '成都市高新区天府软件园'
+        'culture' => '担当与分享'
+        'description' => ''
+        'company_id' => ''
+    ]
+]
+
+$_COOKIE = [
+    'mebss' => '3gcs7tft5ddao9d5meh16dq3p1'
+    '_csrf' => '581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wUrYYN5UPL2WX5chrzHtWx33eTFacWuM\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'admin_id' => 1
+        'username' => 'myadmin'
+        'role_id' => -1
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'admin.demo.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '465'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://admin.demo.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2783.4 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.demo.com/admin/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'mebss=3gcs7tft5ddao9d5meh16dq3p1; _csrf=581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wUrYYN5UPL2WX5chrzHtWx33eTFacWuM%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\bin;C:\\Program Files\\VanDyke Software\\Clients\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win64) PHP/7.0.0 Server at admin.demo.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win64) PHP/7.0.0'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/Project/Yii2Web/git/edu/backend/web/index.php'
+    'REMOTE_PORT' => '56732'
+    'REDIRECT_URL' => 'http://admin.demo.com/admin/save'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/save'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487731135.253
+    'REQUEST_TIME' => 1487731135
+]
+2017-02-22 10:40:08 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: backend\models\form\CompanyForm::save in F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\db\BaseActiveRecord.php(286): yii\base\Component->__get('save')
+#1 F:\Project\Yii2Web\git\edu\backend\controllers\AdminController.php(47): yii\db\BaseActiveRecord->__get('save')
+#2 [internal function]: backend\controllers\AdminController->actionSave()
+#3 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('save', Array)
+#6 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('admin/save', Array)
+#7 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 F:\Project\Yii2Web\git\edu\backend\web\index.php(16): yii\base\Application->run()
+#9 {main}
+2017-02-22 10:40:08 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][info][application] $_POST = [
+    '_csrf' => 'S01PekJxZmQ8GD0jGz9TMRsBfS0aRAUMOTcHDhUJVVcuGQkbISYTKQ=='
+    'CompanyForm' => [
+        'company_name' => '凡是教育'
+        'company_tel' => '18283609999'
+        'company_logo' => ''
+        'company_area' => '成都市高新区天府软件园'
+        'culture' => '担当与分享'
+        'description' => ''
+        'company_id' => ''
+    ]
+]
+
+$_COOKIE = [
+    'mebss' => '3gcs7tft5ddao9d5meh16dq3p1'
+    '_csrf' => '581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wUrYYN5UPL2WX5chrzHtWx33eTFacWuM\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'admin_id' => 1
+        'username' => 'myadmin'
+        'role_id' => -1
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'admin.demo.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '465'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://admin.demo.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2783.4 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.demo.com/admin/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'mebss=3gcs7tft5ddao9d5meh16dq3p1; _csrf=581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wUrYYN5UPL2WX5chrzHtWx33eTFacWuM%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\bin;C:\\Program Files\\VanDyke Software\\Clients\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win64) PHP/7.0.0 Server at admin.demo.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win64) PHP/7.0.0'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/Project/Yii2Web/git/edu/backend/web/index.php'
+    'REMOTE_PORT' => '56907'
+    'REDIRECT_URL' => 'http://admin.demo.com/admin/save'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/save'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487731208.047
+    'REQUEST_TIME' => 1487731208
+]
+2017-02-22 10:40:19 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: backend\models\form\CompanyForm::save in F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\db\BaseActiveRecord.php(286): yii\base\Component->__get('save')
+#1 F:\Project\Yii2Web\git\edu\backend\controllers\AdminController.php(47): yii\db\BaseActiveRecord->__get('save')
+#2 [internal function]: backend\controllers\AdminController->actionSave()
+#3 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('save', Array)
+#6 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('admin/save', Array)
+#7 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 F:\Project\Yii2Web\git\edu\backend\web\index.php(16): yii\base\Application->run()
+#9 {main}
+2017-02-22 10:40:19 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][info][application] $_POST = [
+    '_csrf' => 'dTdfQ3A3LmwCYi0aKXkbOSV7bRQoAk0EB00XNydPHV8QYxkiE2BbIQ=='
+    'CompanyForm' => [
+        'company_name' => '凡是教育'
+        'company_tel' => '18283609999'
+        'company_logo' => ''
+        'company_area' => '天府软件园'
+        'culture' => '担当与分享'
+        'description' => ''
+        'company_id' => ''
+    ]
+]
+
+$_COOKIE = [
+    'mebss' => '3gcs7tft5ddao9d5meh16dq3p1'
+    '_csrf' => '581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wUrYYN5UPL2WX5chrzHtWx33eTFacWuM\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'admin_id' => 1
+        'username' => 'myadmin'
+        'role_id' => -1
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'admin.demo.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '411'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://admin.demo.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2783.4 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.demo.com/admin/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'mebss=3gcs7tft5ddao9d5meh16dq3p1; _csrf=581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wUrYYN5UPL2WX5chrzHtWx33eTFacWuM%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\bin;C:\\Program Files\\VanDyke Software\\Clients\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win64) PHP/7.0.0 Server at admin.demo.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win64) PHP/7.0.0'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/Project/Yii2Web/git/edu/backend/web/index.php'
+    'REMOTE_PORT' => '56912'
+    'REDIRECT_URL' => 'http://admin.demo.com/admin/save'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/save'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487731219.441
+    'REQUEST_TIME' => 1487731219
+]
+2017-02-22 11:35:23 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: backend\models\form\CompanyForm::save in F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\db\BaseActiveRecord.php(286): yii\base\Component->__get('save')
+#1 F:\Project\Yii2Web\git\edu\backend\controllers\AdminController.php(47): yii\db\BaseActiveRecord->__get('save')
+#2 [internal function]: backend\controllers\AdminController->actionSave()
+#3 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('save', Array)
+#6 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('admin/save', Array)
+#7 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 F:\Project\Yii2Web\git\edu\backend\web\index.php(16): yii\base\Application->run()
+#9 {main}
+2017-02-22 11:35:23 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][info][application] $_POST = [
+    '_csrf' => 'dTdfQ3A3LmwCYi0aKXkbOSV7bRQoAk0EB00XNydPHV8QYxkiE2BbIQ=='
+    'CompanyForm' => [
+        'company_name' => '凡是教育'
+        'company_tel' => '18283609999'
+        'company_logo' => ''
+        'company_area' => '天府软件园'
+        'culture' => '担当与分享'
+        'description' => ''
+        'company_id' => ''
+    ]
+]
+
+$_COOKIE = [
+    'mebss' => '3gcs7tft5ddao9d5meh16dq3p1'
+    '_csrf' => '581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wUrYYN5UPL2WX5chrzHtWx33eTFacWuM\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'admin_id' => 1
+        'username' => 'myadmin'
+        'role_id' => -1
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'admin.demo.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '411'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://admin.demo.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2783.4 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.demo.com/admin/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'mebss=3gcs7tft5ddao9d5meh16dq3p1; _csrf=581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wUrYYN5UPL2WX5chrzHtWx33eTFacWuM%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\bin;C:\\Program Files\\VanDyke Software\\Clients\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win64) PHP/7.0.0 Server at admin.demo.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win64) PHP/7.0.0'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/Project/Yii2Web/git/edu/backend/web/index.php'
+    'REMOTE_PORT' => '63437'
+    'REDIRECT_URL' => 'http://admin.demo.com/admin/save'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/save'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487734523.506
+    'REQUEST_TIME' => 1487734523
+]
+2017-02-22 16:09:54 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "img/avatars/avatar.jpg". in F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Module.php:462
+Stack trace:
+#0 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('img/avatars/ava...', Array)
+#1 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 F:\Project\Yii2Web\git\edu\backend\web\index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\Project\Yii2Web\git\edu\backend\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2017-02-22 16:09:54 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'mebss' => '3gcs7tft5ddao9d5meh16dq3p1'
+    '_csrf' => '581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wUrYYN5UPL2WX5chrzHtWx33eTFacWuM\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'admin.demo.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2783.4 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.demo.com/admin/home'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'mebss=3gcs7tft5ddao9d5meh16dq3p1; _csrf=581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wUrYYN5UPL2WX5chrzHtWx33eTFacWuM%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\bin;C:\\Program Files\\VanDyke Software\\Clients\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win64) PHP/7.0.0 Server at admin.demo.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win64) PHP/7.0.0'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/Project/Yii2Web/git/edu/backend/web/index.php'
+    'REMOTE_PORT' => '64440'
+    'REDIRECT_URL' => 'http://admin.demo.com/img/avatars/avatar.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/img/avatars/avatar.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487750994.901
+    'REQUEST_TIME' => 1487750994
+]
+2017-02-22 16:10:00 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "img/avatars/avatar.jpg". in F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Module.php:462
+Stack trace:
+#0 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('img/avatars/ava...', Array)
+#1 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 F:\Project\Yii2Web\git\edu\backend\web\index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\Project\Yii2Web\git\edu\backend\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2017-02-22 16:10:00 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'mebss' => '3gcs7tft5ddao9d5meh16dq3p1'
+    '_csrf' => '581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wUrYYN5UPL2WX5chrzHtWx33eTFacWuM\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'admin.demo.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2783.4 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.demo.com/admin/home'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'mebss=3gcs7tft5ddao9d5meh16dq3p1; _csrf=581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wUrYYN5UPL2WX5chrzHtWx33eTFacWuM%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\bin;C:\\Program Files\\VanDyke Software\\Clients\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win64) PHP/7.0.0 Server at admin.demo.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win64) PHP/7.0.0'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/Project/Yii2Web/git/edu/backend/web/index.php'
+    'REMOTE_PORT' => '64443'
+    'REDIRECT_URL' => 'http://admin.demo.com/img/avatars/avatar.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/img/avatars/avatar.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487751000.37
+    'REQUEST_TIME' => 1487751000
+]
+2017-02-22 16:31:32 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][error][Error] Error: Class 'backend\controllers\Exception' not found in F:\Project\Yii2Web\git\edu\backend\controllers\AdminController.php:50
+Stack trace:
+#0 [internal function]: backend\controllers\AdminController->actionSave()
+#1 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#2 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('save', Array)
+#4 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('admin/save', Array)
+#5 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 F:\Project\Yii2Web\git\edu\backend\web\index.php(16): yii\base\Application->run()
+#7 {main}
+2017-02-22 16:31:32 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][info][application] $_POST = [
+    '_csrf' => 'bEFlTG92dTEbFBcVNjhAZDwNVxs3QxZZHjstODgORgIJFSMtDCEAfA=='
+    'CompanyForm' => [
+        'company_name' => '凡是教育'
+        'company_tel' => '400800999'
+        'company_logo' => ''
+        'company_area' => '成都市天赋软件园'
+        'culture' => '一切皆有可能'
+        'description' => '凡是、凡事'
+        'company_id' => '1'
+    ]
+]
+
+$_COOKIE = [
+    'mebss' => '3gcs7tft5ddao9d5meh16dq3p1'
+    '_csrf' => '581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wUrYYN5UPL2WX5chrzHtWx33eTFacWuM\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'admin_id' => 1
+        'username' => 'myadmin'
+        'role_id' => -1
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'admin.demo.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '491'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://admin.demo.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2783.4 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.demo.com/admin/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'mebss=3gcs7tft5ddao9d5meh16dq3p1; _csrf=581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wUrYYN5UPL2WX5chrzHtWx33eTFacWuM%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\bin;C:\\Program Files\\VanDyke Software\\Clients\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win64) PHP/7.0.0 Server at admin.demo.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win64) PHP/7.0.0'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/Project/Yii2Web/git/edu/backend/web/index.php'
+    'REMOTE_PORT' => '50666'
+    'REDIRECT_URL' => 'http://admin.demo.com/admin/save'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/save'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487752292.279
+    'REQUEST_TIME' => 1487752292
+]
+2017-02-22 16:31:32 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2-debug\LogTarget.php:57
+
+Stack trace:
+#0 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2-debug\LogTarget.php(57): serialize(Array)
+#1 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#3 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(Error))
+#6 {main}
+2017-02-22 16:31:32 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][info][application] $_POST = [
+    '_csrf' => 'bEFlTG92dTEbFBcVNjhAZDwNVxs3QxZZHjstODgORgIJFSMtDCEAfA=='
+    'CompanyForm' => [
+        'company_name' => '凡是教育'
+        'company_tel' => '400800999'
+        'company_logo' => ''
+        'company_area' => '成都市天赋软件园'
+        'culture' => '一切皆有可能'
+        'description' => '凡是、凡事'
+        'company_id' => '1'
+    ]
+]
+
+$_COOKIE = [
+    'mebss' => '3gcs7tft5ddao9d5meh16dq3p1'
+    '_csrf' => '581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wUrYYN5UPL2WX5chrzHtWx33eTFacWuM\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'admin_id' => 1
+        'username' => 'myadmin'
+        'role_id' => -1
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'admin.demo.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '491'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://admin.demo.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2783.4 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.demo.com/admin/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'mebss=3gcs7tft5ddao9d5meh16dq3p1; _csrf=581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wUrYYN5UPL2WX5chrzHtWx33eTFacWuM%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\bin;C:\\Program Files\\VanDyke Software\\Clients\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win64) PHP/7.0.0 Server at admin.demo.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win64) PHP/7.0.0'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/Project/Yii2Web/git/edu/backend/web/index.php'
+    'REMOTE_PORT' => '50666'
+    'REDIRECT_URL' => 'http://admin.demo.com/admin/save'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/save'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487752292.279
+    'REQUEST_TIME' => 1487752292
+]
+2017-02-22 19:24:46 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][error][ParseError] ParseError: syntax error, unexpected '->' (T_OBJECT_OPERATOR) in F:\Project\Yii2Web\git\edu\backend\models\form\CompanyForm.php:51
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('backend\\models\\...')
+#1 F:\Project\Yii2Web\git\edu\backend\controllers\AdminController.php(23): spl_autoload_call('backend\\models\\...')
+#2 [internal function]: backend\controllers\AdminController->actionInfo()
+#3 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('info', Array)
+#6 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('admin/info', Array)
+#7 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 F:\Project\Yii2Web\git\edu\backend\web\index.php(16): yii\base\Application->run()
+#9 {main}
+2017-02-22 19:24:44 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][info][application] $_COOKIE = [
+    'mebss' => '3gcs7tft5ddao9d5meh16dq3p1'
+    '_csrf' => '581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wUrYYN5UPL2WX5chrzHtWx33eTFacWuM\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'admin_id' => 1
+        'username' => 'myadmin'
+        'role_id' => -1
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'admin.demo.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2783.4 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.demo.com/admin/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'mebss=3gcs7tft5ddao9d5meh16dq3p1; _csrf=581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wUrYYN5UPL2WX5chrzHtWx33eTFacWuM%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\bin;C:\\Program Files\\VanDyke Software\\Clients\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win64) PHP/7.0.0 Server at admin.demo.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win64) PHP/7.0.0'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/Project/Yii2Web/git/edu/backend/web/index.php'
+    'REMOTE_PORT' => '53778'
+    'REDIRECT_URL' => 'http://admin.demo.com/admin/info'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/info'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487762683.704
+    'REQUEST_TIME' => 1487762683
+]
+2017-02-22 19:24:46 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2-debug\LogTarget.php:57
+
+Stack trace:
+#0 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2-debug\LogTarget.php(57): serialize(Array)
+#1 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#3 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(ParseError))
+#6 {main}
+2017-02-22 19:24:44 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][info][application] $_COOKIE = [
+    'mebss' => '3gcs7tft5ddao9d5meh16dq3p1'
+    '_csrf' => '581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wUrYYN5UPL2WX5chrzHtWx33eTFacWuM\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'admin_id' => 1
+        'username' => 'myadmin'
+        'role_id' => -1
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'admin.demo.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2783.4 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.demo.com/admin/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'mebss=3gcs7tft5ddao9d5meh16dq3p1; _csrf=581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wUrYYN5UPL2WX5chrzHtWx33eTFacWuM%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\bin;C:\\Program Files\\VanDyke Software\\Clients\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win64) PHP/7.0.0 Server at admin.demo.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win64) PHP/7.0.0'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/Project/Yii2Web/git/edu/backend/web/index.php'
+    'REMOTE_PORT' => '53778'
+    'REDIRECT_URL' => 'http://admin.demo.com/admin/info'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/info'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487762683.704
+    'REQUEST_TIME' => 1487762683
+]
+2017-02-22 19:24:46 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][error][ParseError] ParseError: syntax error, unexpected '->' (T_OBJECT_OPERATOR) in F:\Project\Yii2Web\git\edu\backend\models\form\CompanyForm.php:51
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('backend\\models\\...')
+#1 F:\Project\Yii2Web\git\edu\backend\controllers\AdminController.php(23): spl_autoload_call('backend\\models\\...')
+#2 [internal function]: backend\controllers\AdminController->actionInfo()
+#3 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('info', Array)
+#6 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('admin/info', Array)
+#7 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 F:\Project\Yii2Web\git\edu\backend\web\index.php(16): yii\base\Application->run()
+#9 {main}
+2017-02-22 19:24:44 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][info][application] $_COOKIE = [
+    'mebss' => '3gcs7tft5ddao9d5meh16dq3p1'
+    '_csrf' => '581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wUrYYN5UPL2WX5chrzHtWx33eTFacWuM\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'admin_id' => 1
+        'username' => 'myadmin'
+        'role_id' => -1
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'admin.demo.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2783.4 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.demo.com/admin/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'mebss=3gcs7tft5ddao9d5meh16dq3p1; _csrf=581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wUrYYN5UPL2WX5chrzHtWx33eTFacWuM%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\bin;C:\\Program Files\\VanDyke Software\\Clients\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win64) PHP/7.0.0 Server at admin.demo.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win64) PHP/7.0.0'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/Project/Yii2Web/git/edu/backend/web/index.php'
+    'REMOTE_PORT' => '53779'
+    'REDIRECT_URL' => 'http://admin.demo.com/admin/info'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/info'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487762684.304
+    'REQUEST_TIME' => 1487762684
+]
+2017-02-22 19:24:46 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2-debug\LogTarget.php:57
+
+Stack trace:
+#0 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2-debug\LogTarget.php(57): serialize(Array)
+#1 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#3 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(ParseError))
+#6 {main}
+2017-02-22 19:24:44 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][info][application] $_COOKIE = [
+    'mebss' => '3gcs7tft5ddao9d5meh16dq3p1'
+    '_csrf' => '581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wUrYYN5UPL2WX5chrzHtWx33eTFacWuM\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'admin_id' => 1
+        'username' => 'myadmin'
+        'role_id' => -1
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'admin.demo.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2783.4 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.demo.com/admin/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'mebss=3gcs7tft5ddao9d5meh16dq3p1; _csrf=581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wUrYYN5UPL2WX5chrzHtWx33eTFacWuM%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\bin;C:\\Program Files\\VanDyke Software\\Clients\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win64) PHP/7.0.0 Server at admin.demo.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win64) PHP/7.0.0'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/Project/Yii2Web/git/edu/backend/web/index.php'
+    'REMOTE_PORT' => '53779'
+    'REDIRECT_URL' => 'http://admin.demo.com/admin/info'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/info'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487762684.304
+    'REQUEST_TIME' => 1487762684
+]
+2017-02-22 19:25:47 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][error][yii\db\Exception] yii\db\Exception: 更新成功 in F:\Project\Yii2Web\git\edu\backend\controllers\AdminController.php:44
+Stack trace:
+#0 [internal function]: backend\controllers\AdminController->actionSave()
+#1 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#2 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('save', Array)
+#4 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('admin/save', Array)
+#5 F:\Project\Yii2Web\git\edu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 F:\Project\Yii2Web\git\edu\backend\web\index.php(16): yii\base\Application->run()
+#7 {main}
+Additional Information:
+Array
+(
+)
+
+2017-02-22 19:25:46 [127.0.0.1][-][3gcs7tft5ddao9d5meh16dq3p1][info][application] $_POST = [
+    '_csrf' => 'UHhoN1VyZzAnLRpuDDxSZQA0WmANRwRYIgIgQwIKVAM1LC5WNiUSfQ=='
+    'CompanyForm' => [
+        'company_name' => '凡是教育'
+        'company_tel' => '400800999'
+        'company_logo' => ''
+        'company_area' => '成都市天赋软件园'
+        'culture' => '一切皆有可能'
+        'description' => '凡是、凡事'
+        'company_id' => '1'
+    ]
+]
+
+$_COOKIE = [
+    'mebss' => '3gcs7tft5ddao9d5meh16dq3p1'
+    '_csrf' => '581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wUrYYN5UPL2WX5chrzHtWx33eTFacWuM\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'admin_id' => 1
+        'username' => 'myadmin'
+        'role_id' => -1
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'admin.demo.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '491'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://admin.demo.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2783.4 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.demo.com/admin/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'mebss=3gcs7tft5ddao9d5meh16dq3p1; _csrf=581ba9412b52336ce1a1d92218a2cbde9d5692844c7b688f5b26e03f2e219cdea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wUrYYN5UPL2WX5chrzHtWx33eTFacWuM%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\Linux\\bin;C:\\Program Files\\VanDyke Software\\Clients\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win64) PHP/7.0.0 Server at admin.demo.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win64) PHP/7.0.0'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Project/Yii2Web/git/edu/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/Project/Yii2Web/git/edu/backend/web/index.php'
+    'REMOTE_PORT' => '53885'
+    'REDIRECT_URL' => 'http://admin.demo.com/admin/save'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/save'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487762746.925
+    'REQUEST_TIME' => 1487762746
+]

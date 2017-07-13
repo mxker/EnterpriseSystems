@@ -126,40 +126,51 @@ class DemoController extends Controller
     }
 
     public function actionDemo(){
-        $model = LogisticsTrackingForm::findOne([
-            'tracking_code' => 'SG000000152',
-        ]);
+        // $model = LogisticsTrackingForm::findOne([
+        //     'tracking_code' => 'SG000000152',
+        // ]);
 
-        //存在更新，不存在则添加
-        if(!$model){
-            $model=  new LogisticsTrackingForm();
-            $model->tracking_code = 'SG00000015266';
+        // //存在更新，不存在则添加
+        // if(!$model){
+        //     $model=  new LogisticsTrackingForm();
+        //     $model->tracking_code = 'SG00000015266';
+        // }
+        // $model->express_code = 'SF';
+        // $model->status_code = '2';
+        // $model->status_msg = '揽件';
+        // $model->state = '2';
+        // $model->state_txt = '已揽收';
+        // $model->data = 'shishijiuhao';
+        // $model->create_at = time();
+
+        // //通过快递公司code查询快递公司信息
+        // $fields = 'id,e_name';
+        // $expressInfo = ExpressForm::find()->select($fields)->where([
+        //     'e_code' => 'nsf'
+        // ])->asArray()->one();
+
+        // $model->express_id = $expressInfo['id'];
+        // $model->express_name = $expressInfo['e_name'];
+
+        // $success = [];
+        // $success['result'] = true;
+        // $success['returnCode'] = 200;
+        // $success['message'] = '成功';
+        // if ($model->save()) {
+        //     echo 'success';
+        // } else {
+        //     echo 'false';
+        // }
+        
+        $res = $this->_monkey(2,6);
+        echo $res;
+    }
+
+    private function _monkey($m, $n){
+        $s = 0;
+        for ($i = 2; $i <= $n ; $i++) { 
+            $s = ($m + $s) % $i;
         }
-        $model->express_code = 'SF';
-        $model->status_code = '2';
-        $model->status_msg = '揽件';
-        $model->state = '2';
-        $model->state_txt = '已揽收';
-        $model->data = 'shishijiuhao';
-        $model->create_at = time();
-
-        //通过快递公司code查询快递公司信息
-        $fields = 'id,e_name';
-        $expressInfo = ExpressForm::find()->select($fields)->where([
-            'e_code' => 'nsf'
-        ])->asArray()->one();
-
-        $model->express_id = $expressInfo['id'];
-        $model->express_name = $expressInfo['e_name'];
-
-        $success = [];
-        $success['result'] = true;
-        $success['returnCode'] = 200;
-        $success['message'] = '成功';
-        if ($model->save()) {
-            echo 'success';
-        } else {
-            echo 'false';
-        }
+        return $s;
     }
 }
