@@ -84503,3 +84503,95 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1487762746.925
     'REQUEST_TIME' => 1487762746
 ]
+2017-07-19 14:39:46 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30757 bytes' 
+
+in F:\Project\Yii2Web\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 F:\Project\Yii2Web\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile()
+#1 F:\Project\Yii2Web\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\Project\Yii2Web\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect()
+#3 F:\Project\Yii2Web\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch()
+#4 {main}
+2017-07-19 14:39:44 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'mebss' => '1jfe25u6abe33o5000cua95i97'
+    '_csrf' => '631e952fa50fcf77c196b5ebc63d9be715f3c67e99096f3ea508cb1ba231c051a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"YwKJmOiGy9FMY2h2qiLvfTs6h4NNyEi0\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'MXKER'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MXKER'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\Administrator\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Python;C:\\Wnmp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\VanDyke Software\\Clients\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\Vagrant\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_FCGI_MAX_REQUESTS' => '0'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'MXKER'
+    'USERDOMAIN_ROAMINGPROFILE' => 'MXKER'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' => 'E:\\VirtualBox\\'
+    'windir' => 'C:\\WINDOWS'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'HTTP_COOKIE' => 'mebss=1jfe25u6abe33o5000cua95i97; _csrf=631e952fa50fcf77c196b5ebc63d9be715f3c67e99096f3ea508cb1ba231c051a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22YwKJmOiGy9FMY2h2qiLvfTs6h4NNyEi0%22%3B%7D'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_HOST' => 'admin.demo.com'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-Hans-CN,zh-Hans;q=0.5'
+    'HTTP_ACCEPT' => 'text/html, application/xhtml+xml, image/jxr, */*'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55453'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'F:/Project/Yii2Web/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => 'F:/Project/Yii2Web/backend/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500446384.6968
+    'REQUEST_TIME' => 1500446384
+]
