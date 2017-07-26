@@ -1,6 +1,6 @@
 {
-    "name": "moyun/express",
-    "description": "moyun express project",
+    "name": "cargic/edu",
+    "description": "Yii2 demo",
     "type": "project",
     "minimum-stability": "stable",
     "require": {
